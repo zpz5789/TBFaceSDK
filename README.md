@@ -1,9 +1,8 @@
 # TBFaceSDK
 
-[![CI Status](https://img.shields.io/travis/zpz5789/TBFaceSDK.svg?style=flat)](https://travis-ci.org/zpz5789/TBFaceSDK)
-[![Version](https://img.shields.io/cocoapods/v/TBFaceSDK.svg?style=flat)](https://cocoapods.org/pods/TBFaceSDK)
-[![License](https://img.shields.io/cocoapods/l/TBFaceSDK.svg?style=flat)](https://cocoapods.org/pods/TBFaceSDK)
-[![Platform](https://img.shields.io/cocoapods/p/TBFaceSDK.svg?style=flat)](https://cocoapods.org/pods/TBFaceSDK)
+[![Language](https://img.shields.io/badge/Language-objc-brightgreen.svg?style=flat)](https://cocoapods.org/pods/TBFaceSDK)
+[![Pod](https://img.shields.io/badge/pod-v0.1.0-blue.svg?style=flat)](https://cocoapods.org/pods/TBFaceSDK)
+[![Platform](https://img.shields.io/badge/platform-iOS-red.svg?style=flat)](https://cocoapods.org/pods/TBFaceSDK)
 
 ## Example
 
