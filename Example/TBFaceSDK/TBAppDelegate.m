@@ -18,11 +18,13 @@
     [[NSUserDefaults standardUserDefaults] setObject:@(NO) forKey:@"ByOrder"];
     [[NSUserDefaults standardUserDefaults] setObject:@(NO) forKey:@"checkAgreeBtn"];
     
-//    NSString* licensePath = [NSString stringWithFormat:@"%@.%@", FACE_LICENSE_NAME, FACE_LICENSE_SUFFIX ];
-//    [[FaceSDKManager sharedInstance] setLicenseID:FACE_LICENSE_ID andLocalLicenceFile:licensePath andRemoteAuthorize:false];
     NSLog(@"canWork = %d",[[FaceSDKManager sharedInstance] canWork]);
     NSLog(@"version = %@",[[FaceSDKManager sharedInstance] getVersion]);
     return YES;
+}
+
+- (UIInterfaceOrientationMask)application:(UIApplication *)application supportedInterfaceOrientationsForWindow:(nullable UIWindow *)window {
+    return UIInterfaceOrientationMaskPortrait;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

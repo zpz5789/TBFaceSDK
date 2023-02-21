@@ -3,7 +3,12 @@
 [![CI Status](https://img.shields.io/travis/zpz5789/TBFaceSDK.svg?style=flat)](https://travis-ci.org/zpz5789/TBFaceSDK)
 [![Version](https://img.shields.io/cocoapods/v/TBFaceSDK.svg?style=flat)](https://cocoapods.org/pods/TBFaceSDK)
 [![License](https://img.shields.io/cocoapods/l/TBFaceSDK.svg?style=flat)](https://cocoapods.org/pods/TBFaceSDK)
-[![Platform](https://img.shields.io/cocoapods/p/TBFaceSDK.svg?style=flat)](https://cocoapods.org/pods/TBFaceSDK)
+
+
+
+
+
+![](https://img.shields.io/badge/pod-v1.2.2-red.svg)
 
 ## Example
 

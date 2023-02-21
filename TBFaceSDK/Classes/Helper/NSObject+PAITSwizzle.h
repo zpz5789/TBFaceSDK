@@ -2,8 +2,8 @@
 //  NSObject+PAITSwizzle.h
 //  PingAnGoodHelper
 //
-//  Created by 宋绍鹏(产险总部科技中心线上系统团队车商保险平台组) on 2021/11/24.
-//  Copyright © 2021 平安产险科技中心. All rights reserved.
+//  Created by 曾鹏展 on 2021/11/24.
+//  Copyright zpz5789. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

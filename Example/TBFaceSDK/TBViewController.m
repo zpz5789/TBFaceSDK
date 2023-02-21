@@ -71,7 +71,7 @@ static float toBottomMargin = 80.0f;
         // 光线的提示和图片
         UIImageView *lightImage = [[UIImageView alloc] init];
         lightImage.frame =  CGRectMake(0, -1, 60, 60);
-        lightImage.image = [TBFaceSDKUtil imageNamed:@"icon_guide1"];
+        lightImage.image = [TBFaceSDKUtil imageNamed:@"light"];
         [middleContentView addSubview:lightImage];
         UILabel *adjustLight = [[UILabel alloc] init];
         adjustLight.frame =  CGRectMake(76, 8.7, 120, 18);
@@ -89,7 +89,7 @@ static float toBottomMargin = 80.0f;
         // 正对手机的图片t和提示
         UIImageView *angleImage = [[UIImageView alloc] init];
         angleImage.frame = CGRectMake(0, 91, 60, 60);
-        angleImage.image = [TBFaceSDKUtil imageNamed:@"icon_guide3"];
+        angleImage.image = [TBFaceSDKUtil imageNamed:@"front"];
         [middleContentView addSubview:angleImage];
         UILabel *focesText = [[UILabel alloc] init];
         focesText.frame = CGRectMake(76, 100.7, 100, 18);
@@ -107,7 +107,7 @@ static float toBottomMargin = 80.0f;
         // 口罩的图片和提示
         UIImageView *maskImage = [[UIImageView alloc] init];
         maskImage.frame = CGRectMake(0, 183, 60, 60);
-        maskImage.image = [TBFaceSDKUtil imageNamed:@"icon_guide2"];
+        maskImage.image = [TBFaceSDKUtil imageNamed:@"occlusion"];
         [middleContentView addSubview:maskImage];
         UILabel *maskText = [[UILabel alloc] init];
         maskText.frame = CGRectMake(76, 192.7, 96, 18);

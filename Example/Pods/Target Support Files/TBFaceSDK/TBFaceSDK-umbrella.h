@@ -41,7 +41,6 @@
 #import "BDFaceLivingConfigViewController.h"
 #import "BDFaceSuccessViewController.h"
 #import "BDFaceAdjustParamsTool.h"
-#import "TBFaceSDKUtil.h"
 #import "BDFaceCircleView.h"
 #import "BDFaceCycleProgressView.h"
 #import "BDFaceImageShow.h"
@@ -50,6 +49,7 @@
 #import "BDFaceRemindView.h"
 #import "NSBundle+NSBundleAdd.h"
 #import "NSObject+PAITSwizzle.h"
+#import "TBFaceSDKUtil.h"
 
 FOUNDATION_EXPORT double TBFaceSDKVersionNumber;
 FOUNDATION_EXPORT const unsigned char TBFaceSDKVersionString[];
