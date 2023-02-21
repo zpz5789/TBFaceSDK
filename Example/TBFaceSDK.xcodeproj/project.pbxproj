@@ -61,9 +61,9 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8E91AB4D6134531B0F254619 /* Pods_TBFaceSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TBFaceSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9AADCF903029088082218005 /* TBFaceSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TBFaceSDK.podspec; path = ../TBFaceSDK.podspec; sourceTree = "<group>"; };
-		9AF209D3FC398B7D50016749 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		C35363471CB4DBC3837B5CBB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		9AADCF903029088082218005 /* TBFaceSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TBFaceSDK.podspec; path = ../TBFaceSDK.podspec; sourceTree = "<group>"; };
+		9AF209D3FC398B7D50016749 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C35363471CB4DBC3837B5CBB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		CEEAA0F9E534F460030ACB77 /* Pods-TBFaceSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TBFaceSDK_Tests.release.xcconfig"; path = "Target Support Files/Pods-TBFaceSDK_Tests/Pods-TBFaceSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F0091AB93552AEA3729BE5C6 /* Pods-TBFaceSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TBFaceSDK_Example.debug.xcconfig"; path = "Target Support Files/Pods-TBFaceSDK_Example/Pods-TBFaceSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		FE6861AB79B127E101D87C90 /* Pods-TBFaceSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TBFaceSDK_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TBFaceSDK_Tests/Pods-TBFaceSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -193,7 +193,6 @@
 				FE6861AB79B127E101D87C90 /* Pods-TBFaceSDK_Tests.debug.xcconfig */,
 				CEEAA0F9E534F460030ACB77 /* Pods-TBFaceSDK_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -208,7 +207,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				436D32E6C2B3DE25BB215647 /* [CP] Embed Pods Frameworks */,
+				CD1F2FFEB769904A41B4A16D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -248,6 +247,10 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = zpz5789;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 59849GXMHC;
+						ProvisioningStyle = Manual;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +261,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -295,17 +299,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		436D32E6C2B3DE25BB215647 /* [CP] Embed Pods Frameworks */ = {
+		CD1F2FFEB769904A41B4A16D /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-TBFaceSDK_Example/Pods-TBFaceSDK_Example-frameworks.sh",
+				"${PODS_ROOT}/../../TBFaceSDK/BDFaceSDK/IDLFaceSDK.framework",
 				"${BUILT_PRODUCTS_DIR}/TBFaceSDK/TBFaceSDK.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IDLFaceSDK.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TBFaceSDK.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -494,12 +500,17 @@
 			baseConfigurationReference = F0091AB93552AEA3729BE5C6 /* Pods-TBFaceSDK_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 59849GXMHC;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TBFaceSDK/TBFaceSDK-Prefix.pch";
 				INFOPLIST_FILE = "TBFaceSDK/TBFaceSDK-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mexico.appesito;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "appesito-dev-new";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
 			};
@@ -510,12 +521,17 @@
 			baseConfigurationReference = 2F464F92C08E95D2CD34FB83 /* Pods-TBFaceSDK_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 59849GXMHC;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TBFaceSDK/TBFaceSDK-Prefix.pch";
 				INFOPLIST_FILE = "TBFaceSDK/TBFaceSDK-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mexico.appesito;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "appesito-dev-new";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
 			};

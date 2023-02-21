@@ -1,0 +1,6 @@
+framework module TBFaceSDK {
+  umbrella header "TBFaceSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

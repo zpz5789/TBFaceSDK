@@ -1,0 +1,44 @@
+{
+  "name": "TBFaceSDK",
+  "version": "0.1.0",
+  "summary": "A short description of TBFaceSDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zpz5789/TBFaceSDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zpz5789": "zengpengzhan@tangbull.com"
+  },
+  "source": {
+    "git": "https://github.com/zpz5789/TBFaceSDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "TBFaceSDK/Classes/**/*",
+  "public_header_files": "TBFaceSDK/Classes/**/*.h",
+  "resource_bundles": {
+    "TBFaceSDK": [
+      "TBFaceSDK/Assets/*.png"
+    ]
+  },
+  "resources": [
+    "TBFaceSDK/BDFaceSDK/*.bundle",
+    "TBFaceSDK/Resource/*.xcassets",
+    "TBFaceSDK/Resource/*.json"
+  ],
+  "vendored_frameworks": "TBFaceSDK/BDFaceSDK/*.framework",
+  "frameworks": [
+    "CoreTelephony",
+    "AssetsLibrary",
+    "UIKit",
+    "Foundation"
+  ],
+  "libraries": [
+    "z",
+    "c++"
+  ]
+}

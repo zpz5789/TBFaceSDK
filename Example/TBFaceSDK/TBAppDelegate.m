@@ -7,12 +7,21 @@
 //
 
 #import "TBAppDelegate.h"
+#import "IDLFaceSDK/IDLFaceSDK.h"
 
 @implementation TBAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    [[NSUserDefaults standardUserDefaults] setObject:@(YES) forKey:@"SoundMode"];
+    [[NSUserDefaults standardUserDefaults] setObject:@(YES) forKey:@"LiveMode"];
+    [[NSUserDefaults standardUserDefaults] setObject:@(NO) forKey:@"ByOrder"];
+    [[NSUserDefaults standardUserDefaults] setObject:@(NO) forKey:@"checkAgreeBtn"];
+    
+//    NSString* licensePath = [NSString stringWithFormat:@"%@.%@", FACE_LICENSE_NAME, FACE_LICENSE_SUFFIX ];
+//    [[FaceSDKManager sharedInstance] setLicenseID:FACE_LICENSE_ID andLocalLicenceFile:licensePath andRemoteAuthorize:false];
+    NSLog(@"canWork = %d",[[FaceSDKManager sharedInstance] canWork]);
+    NSLog(@"version = %@",[[FaceSDKManager sharedInstance] getVersion]);
     return YES;
 }
 

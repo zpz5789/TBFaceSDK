@@ -25,18 +25,23 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'zpz5789' => 'zengpengzhan@tangbull.com' }
-  s.source           = { :git => 'https://github.com/zpz5789/TBFaceSDK.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/zpz5789/TBFaceSDK.git', :tag => s.version }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'TBFaceSDK/Classes/**/*'
+  s.public_header_files = 'TBFaceSDK/Classes/**/*.h'
   
-  # s.resource_bundles = {
-  #   'TBFaceSDK' => ['TBFaceSDK/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'TBFaceSDK' => ['TBFaceSDK/Assets/*.png']
+   }
+   
+   s.resources           = ['TBFaceSDK/BDFaceSDK/*.bundle', 'TBFaceSDK/Resource/*.xcassets', 'TBFaceSDK/Resource/*.json']
+   s.vendored_frameworks = 'TBFaceSDK/BDFaceSDK/*.framework'
+   # s.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC' }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+   s.frameworks = 'CoreTelephony', 'AssetsLibrary', 'UIKit', 'Foundation'
+   s.libraries = 'z', 'c++'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
