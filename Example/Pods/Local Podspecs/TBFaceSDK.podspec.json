@@ -20,15 +20,9 @@
   },
   "source_files": "TBFaceSDK/Classes/**/*",
   "public_header_files": "TBFaceSDK/Classes/**/*.h",
-  "resource_bundles": {
-    "TBFaceSDK": [
-      "TBFaceSDK/Assets/*.png"
-    ]
-  },
   "resources": [
     "TBFaceSDK/BDFaceSDK/*.bundle",
-    "TBFaceSDK/Resource/*.xcassets",
-    "TBFaceSDK/Resource/*.json"
+    "TBFaceSDK/Resource/*.bundle"
   ],
   "vendored_frameworks": "TBFaceSDK/BDFaceSDK/*.framework",
   "frameworks": [
@@ -40,5 +34,8 @@
   "libraries": [
     "z",
     "c++"
-  ]
+  ],
+  "pod_target_xcconfig": {
+    "VALID_ARCHS": "armv7 armv7s arm64 arm64e"
+  }
 }

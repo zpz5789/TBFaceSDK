@@ -11,6 +11,7 @@
 #import "BDFaceCalculateTool.h"
 #import "BDFaceAdjustParams.h"
 #import "BDFaceAdjustParamsTool.h"
+#import "TBFaceSDKUtil.h"
 
 static NSString *const BDFaceAdjustConfigFileName = @"BDFaceParamsConfig";
 static NSString *const BDFaceAdjustConfigFileSurfix = @"json";
@@ -51,7 +52,7 @@ static NSString *const BDFaceParamsConfigCacheForUserSelectKey = @"BDFaceParamsC
 
 /// 读取配置文件
 - (void)loadConfigFile {
-    NSBundle *bundle = [NSBundle bundleForClass:[self class]];
+    NSBundle *bundle = [TBFaceSDKUtil resourceBundle];
     NSString *path = [bundle pathForResource:BDFaceAdjustConfigFileName ofType:BDFaceAdjustConfigFileSurfix];
     NSDictionary *dic = nil;
 

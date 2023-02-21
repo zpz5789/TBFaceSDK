@@ -18,6 +18,7 @@
 #import "BDFaceLog.h"
 #import "BDFaceCalculateTool.h"
 #import "BDFaceToastView.h"
+#import "TBFaceSDKUtil.h"
 #define ScreenRect [UIScreen mainScreen].bounds
 #define ScreenWidth [UIScreen mainScreen].bounds.size.width
 #define ScreenHeight [UIScreen mainScreen].bounds.size.height
@@ -39,11 +40,11 @@ static float toBottomMargin = 80.0f;
     CGFloat height = (int)(CGRectGetWidth(self.view.frame) / 2.1);
     UIImageView *bgView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, CGRectGetWidth(self.view.frame), height)];
     [self.view addSubview:bgView];
-    bgView.image = [UIImage imageNamed:@"image_guide"];
+    bgView.image = [TBFaceSDKUtil imageNamed:@"image_guide"];
     bgView.backgroundColor = [UIColor greenColor];
     // 设置按钮
     self.settingBtn.frame = CGRectMake((ScreenWidth-22-20), 42.7 + ScreenSafeTopMargin, 22, 22);
-    [self.settingBtn setImage:[UIImage imageNamed:@"icon_titlebar_setting"] forState:UIControlStateNormal];
+    [self.settingBtn setImage:[TBFaceSDKUtil imageNamed:@"icon_titlebar_setting"] forState:UIControlStateNormal];
     [_settingBtn addTarget:self action:@selector(settingAction:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:self.settingBtn];
     
@@ -70,7 +71,7 @@ static float toBottomMargin = 80.0f;
         // 光线的提示和图片
         UIImageView *lightImage = [[UIImageView alloc] init];
         lightImage.frame =  CGRectMake(0, -1, 60, 60);
-        lightImage.image = [UIImage imageNamed:@"icon_guide1"];
+        lightImage.image = [TBFaceSDKUtil imageNamed:@"icon_guide1"];
         [middleContentView addSubview:lightImage];
         UILabel *adjustLight = [[UILabel alloc] init];
         adjustLight.frame =  CGRectMake(76, 8.7, 120, 18);
@@ -88,7 +89,7 @@ static float toBottomMargin = 80.0f;
         // 正对手机的图片t和提示
         UIImageView *angleImage = [[UIImageView alloc] init];
         angleImage.frame = CGRectMake(0, 91, 60, 60);
-        angleImage.image = [UIImage imageNamed:@"icon_guide3"];
+        angleImage.image = [TBFaceSDKUtil imageNamed:@"icon_guide3"];
         [middleContentView addSubview:angleImage];
         UILabel *focesText = [[UILabel alloc] init];
         focesText.frame = CGRectMake(76, 100.7, 100, 18);
@@ -106,7 +107,7 @@ static float toBottomMargin = 80.0f;
         // 口罩的图片和提示
         UIImageView *maskImage = [[UIImageView alloc] init];
         maskImage.frame = CGRectMake(0, 183, 60, 60);
-        maskImage.image = [UIImage imageNamed:@"icon_guide2"];
+        maskImage.image = [TBFaceSDKUtil imageNamed:@"icon_guide2"];
         [middleContentView addSubview:maskImage];
         UILabel *maskText = [[UILabel alloc] init];
         maskText.frame = CGRectMake(76, 192.7, 96, 18);
@@ -153,7 +154,7 @@ static float toBottomMargin = 80.0f;
     // 勾选人脸验证协议的button
     UIButton *checkAgreeBtn = [UIButton buttonWithType:UIButtonTypeCustom];
     checkAgreeBtn.frame = CGRectMake(-2.0f * remdinderHeight, -2.0f * remdinderHeight, remdinderHeight *5, remdinderHeight*5);
-    [checkAgreeBtn setImage:[UIImage imageNamed:@"icon_guide"] forState:UIControlStateNormal];
+    [checkAgreeBtn setImage:[TBFaceSDKUtil imageNamed:@"icon_guide"] forState:UIControlStateNormal];
     [checkAgreeBtn addTarget:self action:@selector(checkAgreeClick:) forControlEvents:UIControlEventTouchUpInside];
     [remindView addSubview:checkAgreeBtn];
     
@@ -182,8 +183,8 @@ static float toBottomMargin = 80.0f;
     // 开始采集的Button
     UIButton *startBtn  = [[UIButton alloc] init];
     startBtn.frame = CGRectMake((self.view.frame.size.width-266.7)/2, CGRectGetMinY(remindView.frame) - startBtnHeight - startBtnBottomMargin, 266.7, startBtnHeight);
-    [startBtn setImage:[UIImage imageNamed:@"btn_main_normal"] forState:UIControlStateNormal];
-    [startBtn setImage:[UIImage imageNamed:@"btn_main_p"] forState:UIControlStateSelected];
+    [startBtn setImage:[TBFaceSDKUtil imageNamed:@"btn_main_normal"] forState:UIControlStateNormal];
+    [startBtn setImage:[TBFaceSDKUtil imageNamed:@"btn_main_p"] forState:UIControlStateSelected];
     UILabel *btnLabel = [[UILabel alloc] init];
     CGFloat labelHeight = 18.0f;
     CGFloat labelWidth = 108;
@@ -210,10 +211,10 @@ static float toBottomMargin = 80.0f;
     sender.selected ^= 1;
     // 如果再次点击选中button，提示窗口消失
     if (sender.selected) {
-        [sender setImage:[UIImage imageNamed:@"icon_guide_s"] forState:UIControlStateSelected];
+        [sender setImage:[TBFaceSDKUtil imageNamed:@"icon_guide_s"] forState:UIControlStateSelected];
         [[NSUserDefaults standardUserDefaults] setObject:@(YES) forKey:@"checkAgreeBtn"];
     } else {
-        [sender setImage:[UIImage imageNamed:@"icon_guide"] forState:UIControlStateNormal];
+        [sender setImage:[TBFaceSDKUtil imageNamed:@"icon_guide"] forState:UIControlStateNormal];
         [[NSUserDefaults standardUserDefaults] setObject:@(NO) forKey:@"checkAgreeBtn"];
     }
 }

@@ -14,6 +14,7 @@
 #import "BDFaceLivingConfigModel.h"
 #import "BDFaceLogoView.h"
 #import "BDFaceImageShow.h"
+#import "TBFaceSDKUtil.h"
 
 #define ScreenWidth [UIScreen mainScreen].bounds.size.width
 #define ScreenHeight [UIScreen mainScreen].bounds.size.height
@@ -30,7 +31,7 @@
     
     UIButton *backButton = [[UIButton alloc] init];
     backButton.frame = CGRectMake(23.3, 43.3, 20, 20);
-    [backButton setImage:[UIImage imageNamed:@"icon_titlebar_close"] forState:UIControlStateNormal];
+    [backButton setImage:[TBFaceSDKUtil imageNamed:@"icon_titlebar_close"] forState:UIControlStateNormal];
     [backButton addTarget:self action:@selector(backAction:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:backButton];
     
@@ -66,13 +67,13 @@
     // 上下两个button
     UIButton *btnFirst = [[UIButton alloc] init];
     btnFirst.frame = CGRectMake((ScreenWidth-260) / 2, 452, 260, 52);
-    [btnFirst setImage:[UIImage imageNamed:@"btn_main_normal"] forState:UIControlStateNormal];
+    [btnFirst setImage:[TBFaceSDKUtil imageNamed:@"btn_main_normal"] forState:UIControlStateNormal];
     [btnFirst addTarget:self action:@selector(restartClick:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btnFirst];
 
     UIButton *btnSecond = [[UIButton alloc] init];
     btnSecond.frame = CGRectMake((ScreenWidth-260) / 2, 516, 260, 52);
-    [btnSecond setImage:[UIImage imageNamed:@"btn_less_normal"] forState:UIControlStateNormal];
+    [btnSecond setImage:[TBFaceSDKUtil imageNamed:@"btn_less_normal"] forState:UIControlStateNormal];
     [btnSecond addTarget:self action:@selector(backToViewController:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btnSecond];
     

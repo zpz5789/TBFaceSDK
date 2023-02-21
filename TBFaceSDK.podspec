@@ -33,15 +33,16 @@ TODO: Add long description of the pod here.
   s.source_files = 'TBFaceSDK/Classes/**/*'
   s.public_header_files = 'TBFaceSDK/Classes/**/*.h'
   
-   s.resource_bundles = {
-     'TBFaceSDK' => ['TBFaceSDK/Assets/*.png']
-   }
-   
-   s.resources           = ['TBFaceSDK/BDFaceSDK/*.bundle', 'TBFaceSDK/Resource/*.xcassets', 'TBFaceSDK/Resource/*.json']
+#   s.resource_bundles = {
+#     'TBFaceSDK' => ['TBFaceSDK/Assets/*.png']
+#   }
+#
+   s.resources           = ['TBFaceSDK/BDFaceSDK/*.bundle', 'TBFaceSDK/Resource/*.bundle']
    s.vendored_frameworks = 'TBFaceSDK/BDFaceSDK/*.framework'
    # s.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC' }
 
    s.frameworks = 'CoreTelephony', 'AssetsLibrary', 'UIKit', 'Foundation'
    s.libraries = 'z', 'c++'
+   s.pod_target_xcconfig = { 'VALID_ARCHS' => 'armv7 armv7s arm64 arm64e' }
   # s.dependency 'AFNetworking', '~> 2.3'
 end

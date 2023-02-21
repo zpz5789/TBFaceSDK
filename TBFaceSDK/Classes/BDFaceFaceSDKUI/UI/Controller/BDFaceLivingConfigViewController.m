@@ -14,6 +14,7 @@
 #import "UIColor+BDFaceColorUtils.h"
 #import "BDFaceToastView.h"
 #import "BDFaceAdjustParamsFileManager.h"
+#import "TBFaceSDKUtil.h"
 
 #define SoundSwitch @"SoundMode"
 #define LiveDetect @"LiveMode"
@@ -59,7 +60,7 @@
     
     UIButton *backButton = [[UIButton alloc] init];
     backButton.frame = CGRectMake(23.3, 50-5, 20, 20);
-    [backButton setImage:[UIImage imageNamed:@"icon_titlebar_back"] forState:UIControlStateNormal];
+    [backButton setImage:[TBFaceSDKUtil imageNamed:@"icon_titlebar_back"] forState:UIControlStateNormal];
     [backButton addTarget:self action:@selector(backAction:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:backButton];
     
@@ -72,7 +73,7 @@
     noticeLabel.textColor = [UIColor colorWithRed:153 / 255.0 green:153 / 255.0 blue:153 / 255.0 alpha:1 / 1.0];
     [self.view addSubview:noticeLabel];
     
-    UIImage *backSelectImage = [UIImage imageNamed:@"icon_live_list"];
+    UIImage *backSelectImage = [TBFaceSDKUtil imageNamed:@"icon_live_list"];
     
     // 语音播报部分
     {
@@ -115,7 +116,7 @@
         UIImageView *rightArrow = [[UIImageView alloc] init];
         // UISwitch 系统默认大小，fram 不起作用
         rightArrow.frame = CGRectMake(ScreenWidth-60, 206-15, 30, 30);
-        rightArrow.image = [UIImage imageNamed:@"right_arrow"];
+        rightArrow.image = [TBFaceSDKUtil imageNamed:@"right_arrow"];
         [rightArrow setContentMode:UIViewContentModeCenter];
         [self.view addSubview:rightArrow];
         
@@ -183,10 +184,10 @@
             // 判断数组中是否有上次选择结果，如果有，继续选择
             if([BDFaceLivingConfigModel.sharedInstance.liveActionArray containsObject:@(i-1)]){
                 buttonView.selected = YES;
-                [buttonView setImage:[UIImage imageNamed:@"icon_check_select"] forState:UIControlStateSelected];
+                [buttonView setImage:[TBFaceSDKUtil imageNamed:@"icon_check_select"] forState:UIControlStateSelected];
             } else {
                 buttonView.selected = NO;
-                [buttonView setImage:[UIImage imageNamed:@"icon_check"] forState:UIControlStateNormal];
+                [buttonView setImage:[TBFaceSDKUtil imageNamed:@"icon_check"] forState:UIControlStateNormal];
             }
             [self.liveView  addSubview:buttonView];
             
@@ -205,7 +206,7 @@
     // 不正常操作问题，相应的view
     self.warningView = [[UIImageView alloc] init];
     self.warningView.frame = CGRectMake((ScreenWidth-208) / 2, 298, 208, 44);
-    self.warningView.image = [UIImage imageNamed:@"icon_notice"];
+    self.warningView.image = [TBFaceSDKUtil imageNamed:@"icon_notice"];
     
     self.waringLabel = [[UILabel alloc] init];
     self.waringLabel.frame = CGRectMake((ScreenWidth-168) / 2, 310, 168, 14);
@@ -254,11 +255,11 @@
 - (IBAction)liveEyeAction:(UIButton *)sender {
     sender.selected ^= 1;
     if (sender.selected) {
-        [sender setImage:[UIImage imageNamed:@"icon_check_select"] forState:UIControlStateSelected];
+        [sender setImage:[TBFaceSDKUtil imageNamed:@"icon_check_select"] forState:UIControlStateSelected];
         [BDFaceLivingConfigModel.sharedInstance.liveActionArray addObject:@(FaceLivenessActionTypeLiveEye)];
         BDFaceLivingConfigModel.sharedInstance.numOfLiveness ++;
     } else {
-        [sender setImage:[UIImage imageNamed:@"icon_check"] forState:UIControlStateNormal];
+        [sender setImage:[TBFaceSDKUtil imageNamed:@"icon_check"] forState:UIControlStateNormal];
         [BDFaceLivingConfigModel.sharedInstance.liveActionArray removeObject:@(FaceLivenessActionTypeLiveEye)];
         BDFaceLivingConfigModel.sharedInstance.numOfLiveness --;
     }
@@ -267,11 +268,11 @@
 - (IBAction)liveMouthAction:(UIButton *)sender {
     sender.selected ^= 1;
     if (sender.selected) {
-        [sender setImage:[UIImage imageNamed:@"icon_check_select"] forState:UIControlStateSelected];
+        [sender setImage:[TBFaceSDKUtil imageNamed:@"icon_check_select"] forState:UIControlStateSelected];
         [BDFaceLivingConfigModel.sharedInstance.liveActionArray addObject:@(FaceLivenessActionTypeLiveMouth)];
         BDFaceLivingConfigModel.sharedInstance.numOfLiveness ++;
     } else {
-        [sender setImage:[UIImage imageNamed:@"icon_check"] forState:UIControlStateNormal];
+        [sender setImage:[TBFaceSDKUtil imageNamed:@"icon_check"] forState:UIControlStateNormal];
         [BDFaceLivingConfigModel.sharedInstance.liveActionArray removeObject:@(FaceLivenessActionTypeLiveMouth)];
         BDFaceLivingConfigModel.sharedInstance.numOfLiveness --;
     }
@@ -280,11 +281,11 @@
 - (IBAction)liveHeadRightAction:(UIButton *)sender {
     sender.selected ^= 1;
     if (sender.selected) {
-        [sender setImage:[UIImage imageNamed:@"icon_check_select"] forState:UIControlStateSelected];
+        [sender setImage:[TBFaceSDKUtil imageNamed:@"icon_check_select"] forState:UIControlStateSelected];
         [BDFaceLivingConfigModel.sharedInstance.liveActionArray addObject:@(FaceLivenessActionTypeLiveYawRight)];
         BDFaceLivingConfigModel.sharedInstance.numOfLiveness ++;
     } else {
-        [sender setImage:[UIImage imageNamed:@"icon_check"] forState:UIControlStateNormal];
+        [sender setImage:[TBFaceSDKUtil imageNamed:@"icon_check"] forState:UIControlStateNormal];
         [BDFaceLivingConfigModel.sharedInstance.liveActionArray removeObject:@(FaceLivenessActionTypeLiveYawRight)];
         BDFaceLivingConfigModel.sharedInstance.numOfLiveness --;
     }
@@ -293,11 +294,11 @@
 - (IBAction)liveHeadLeftAction:(UIButton *)sender {
     sender.selected ^= 1;
     if (sender.selected) {
-        [sender setImage:[UIImage imageNamed:@"icon_check_select"] forState:UIControlStateSelected];
+        [sender setImage:[TBFaceSDKUtil imageNamed:@"icon_check_select"] forState:UIControlStateSelected];
         [BDFaceLivingConfigModel.sharedInstance.liveActionArray addObject:@(FaceLivenessActionTypeLiveYawLeft)];
         BDFaceLivingConfigModel.sharedInstance.numOfLiveness ++;
     } else {
-        [sender setImage:[UIImage imageNamed:@"icon_check"] forState:UIControlStateNormal];
+        [sender setImage:[TBFaceSDKUtil imageNamed:@"icon_check"] forState:UIControlStateNormal];
         [BDFaceLivingConfigModel.sharedInstance.liveActionArray removeObject:@(FaceLivenessActionTypeLiveYawLeft)];
         BDFaceLivingConfigModel.sharedInstance.numOfLiveness --;
     }
@@ -306,11 +307,11 @@
 - (IBAction)liveHeadUpAction:(UIButton *)sender {
     sender.selected ^= 1;
     if (sender.selected) {
-        [sender setImage:[UIImage imageNamed:@"icon_check_select"] forState:UIControlStateSelected];
+        [sender setImage:[TBFaceSDKUtil imageNamed:@"icon_check_select"] forState:UIControlStateSelected];
         [BDFaceLivingConfigModel.sharedInstance.liveActionArray addObject:@(FaceLivenessActionTypeLivePitchUp)];
         BDFaceLivingConfigModel.sharedInstance.numOfLiveness ++;
     } else {
-        [sender setImage:[UIImage imageNamed:@"icon_check"] forState:UIControlStateNormal];
+        [sender setImage:[TBFaceSDKUtil imageNamed:@"icon_check"] forState:UIControlStateNormal];
         [BDFaceLivingConfigModel.sharedInstance.liveActionArray removeObject:@(FaceLivenessActionTypeLivePitchUp)];
         BDFaceLivingConfigModel.sharedInstance.numOfLiveness --;
     }
@@ -319,11 +320,11 @@
 - (IBAction)liveHeadDownAction:(UIButton *)sender {
     sender.selected ^= 1;
     if (sender.selected) {
-        [sender setImage:[UIImage imageNamed:@"icon_check_select"] forState:UIControlStateSelected];
+        [sender setImage:[TBFaceSDKUtil imageNamed:@"icon_check_select"] forState:UIControlStateSelected];
         [BDFaceLivingConfigModel.sharedInstance.liveActionArray addObject:@(FaceLivenessActionTypeLivePitchDown)];
         BDFaceLivingConfigModel.sharedInstance.numOfLiveness ++;
     } else {
-        [sender setImage:[UIImage imageNamed:@"icon_check"] forState:UIControlStateNormal];
+        [sender setImage:[TBFaceSDKUtil imageNamed:@"icon_check"] forState:UIControlStateNormal];
         [BDFaceLivingConfigModel.sharedInstance.liveActionArray removeObject:@(FaceLivenessActionTypeLivePitchDown)];
         BDFaceLivingConfigModel.sharedInstance.numOfLiveness --;
     }
@@ -332,12 +333,12 @@
 - (IBAction)liveYawAction:(UIButton *)sender {
     sender.selected ^= 1;
     if (sender.selected) {
-        [sender setImage:[UIImage imageNamed:@"icon_check_select"] forState:UIControlStateSelected];
+        [sender setImage:[TBFaceSDKUtil imageNamed:@"icon_check_select"] forState:UIControlStateSelected];
         [BDFaceLivingConfigModel.sharedInstance.liveActionArray addObject:@(FaceLivenessActionTypeLiveYaw)];
         BDFaceLivingConfigModel.sharedInstance.numOfLiveness ++;
         
     } else {
-        [sender setImage:[UIImage imageNamed:@"icon_check"] forState:UIControlStateNormal];
+        [sender setImage:[TBFaceSDKUtil imageNamed:@"icon_check"] forState:UIControlStateNormal];
         [BDFaceLivingConfigModel.sharedInstance.liveActionArray removeObject:@(FaceLivenessActionTypeLiveYaw)];
         BDFaceLivingConfigModel.sharedInstance.numOfLiveness --;
     }

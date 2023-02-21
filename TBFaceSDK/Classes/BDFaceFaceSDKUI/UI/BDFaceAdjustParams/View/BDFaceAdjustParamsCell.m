@@ -11,6 +11,7 @@
 #import "BDFaceAdjustParamsConstants.h"
 #import "UIColor+BDFaceColorUtils.h"
 #import "BDFaceCalculateTool.h"
+#import "TBFaceSDKUtil.h"
 
 float const BDFaceAdjustParamsCellHeight = 48.0f;
 
@@ -153,19 +154,19 @@ static float const BDFaceAdjustParamsRightButtonRightMargin = 10.0f;
     NSString *minValue = [self numberString:item.minValue];
     
     if (currentValue.floatValue == minValue.floatValue) {
-        [self.leftButton setImage:[UIImage imageNamed:@"left_button_unable"] forState:UIControlStateNormal];
-        [self.leftButton setImage:[UIImage imageNamed:@"left_button_unable"] forState:UIControlStateHighlighted];
+        [self.leftButton setImage:[TBFaceSDKUtil imageNamed:@"left_button_unable"] forState:UIControlStateNormal];
+        [self.leftButton setImage:[TBFaceSDKUtil imageNamed:@"left_button_unable"] forState:UIControlStateHighlighted];
     } else {
-        [self.leftButton setImage:[UIImage imageNamed:@"left_button_normal"] forState:UIControlStateNormal];
-        [self.leftButton setImage:[UIImage imageNamed:@"left_button_highlight"] forState:UIControlStateHighlighted];
+        [self.leftButton setImage:[TBFaceSDKUtil imageNamed:@"left_button_normal"] forState:UIControlStateNormal];
+        [self.leftButton setImage:[TBFaceSDKUtil imageNamed:@"left_button_highlight"] forState:UIControlStateHighlighted];
     }
     
     if (currentValue.floatValue == maxValue.floatValue) {
-        [self.rightButton setImage:[UIImage imageNamed:@"right_button_unable"] forState:UIControlStateNormal];
-        [self.rightButton setImage:[UIImage imageNamed:@"right_button_unable"] forState:UIControlStateHighlighted];
+        [self.rightButton setImage:[TBFaceSDKUtil imageNamed:@"right_button_unable"] forState:UIControlStateNormal];
+        [self.rightButton setImage:[TBFaceSDKUtil imageNamed:@"right_button_unable"] forState:UIControlStateHighlighted];
     } else {
-        [self.rightButton setImage:[UIImage imageNamed:@"right_button_normal"] forState:UIControlStateNormal];
-        [self.rightButton setImage:[UIImage imageNamed:@"right_button_highlight"] forState:UIControlStateHighlighted];
+        [self.rightButton setImage:[TBFaceSDKUtil imageNamed:@"right_button_normal"] forState:UIControlStateNormal];
+        [self.rightButton setImage:[TBFaceSDKUtil imageNamed:@"right_button_highlight"] forState:UIControlStateHighlighted];
     }
 }
 

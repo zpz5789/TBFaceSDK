@@ -52,7 +52,7 @@
                 imageName = [NSString stringWithFormat:@"%d_%d", i, k];
             }
             
-            
+            NSBundle *bundle = [[NSBundle alloc] initWithPath:[[NSBundle bundleForClass:[self class]] pathForResource:FACESDK_ACTION_BUNDLE_NAME ofType:nil]];
             NSString * path = [FACESDK_ACTION_BUNDLE pathForResource:imageName ofType:@"png"];
             UIImage *image = [UIImage imageNamed:path];
             [imageArr addObject:image];

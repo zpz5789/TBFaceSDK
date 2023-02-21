@@ -8,6 +8,7 @@
 
 #import "BDFaceAgreementViewController.h"
 #import "BDFaceLogoView.h"
+#import "TBFaceSDKUtil.h"
 
 #define ScreenWidth [UIScreen mainScreen].bounds.size.width
 #define ScreenHeight [UIScreen mainScreen].bounds.size.height
@@ -34,7 +35,7 @@
     
     UIButton *backButton = [[UIButton alloc] init];
     backButton.frame = CGRectMake(23.3, 43.3, 20, 20);
-    [backButton setImage:[UIImage imageNamed:@"icon_titlebar_back"] forState:UIControlStateNormal];
+    [backButton setImage:[TBFaceSDKUtil imageNamed:@"icon_titlebar_back"] forState:UIControlStateNormal];
     [backButton addTarget:self action:@selector(backAction:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:backButton];
     
@@ -50,7 +51,7 @@
     int spacing = 0;
     
     for (int num = 0; num < 3; num++){
-        UIImage *image = [UIImage imageNamed:@"image_agreement"];
+        UIImage *image = [TBFaceSDKUtil imageNamed:@"image_agreement"];
         UIImageView *imageView1 = [[UIImageView alloc] init];
         imageView1.frame = CGRectMake(20, spacing, 3, 18);
         imageView1.image = image;

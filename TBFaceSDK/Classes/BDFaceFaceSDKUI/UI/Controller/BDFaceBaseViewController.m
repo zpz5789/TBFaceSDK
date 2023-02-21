@@ -11,6 +11,7 @@
 #import "BDFaceImageUtils.h"
 #import "BDFaceRemindView.h"
 #import "BDFaceLogoView.h"
+#import "TBFaceSDKUtil.h"
 
 // 判断是否是ipad
 #define isPad ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad)
@@ -140,7 +141,7 @@
     // 超时的image
     _timeOutImageView = [[UIImageView alloc] init];
     _timeOutImageView.frame = CGRectMake((ScreenWidth-76) / 2, KScaleY(217.3), 76, 76);
-    _timeOutImageView.image = [UIImage imageNamed:@"icon_overtime"];
+    _timeOutImageView.image = [TBFaceSDKUtil imageNamed:@"icon_overtime"];
     
     // 超时的label
     _timeOutLabel = [[UILabel alloc] init];
@@ -239,7 +240,7 @@
     
     UIButton *backButton = [[UIButton alloc] init];
     backButton.frame = CGRectMake(23.3, 43.3, 20, 20);
-    [backButton setImage:[UIImage imageNamed:@"icon_titlebar_close"] forState:UIControlStateNormal];
+    [backButton setImage:[TBFaceSDKUtil imageNamed:@"icon_titlebar_close"] forState:UIControlStateNormal];
     [backButton addTarget:self action:@selector(closeAction) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:backButton];
     
@@ -247,15 +248,15 @@
     _voiceImageView = [[UIImageView alloc] init];
     _voiceImageView.frame = CGRectMake((ScreenWidth-22-20), 42.7, 22, 22);
     _voiceImageView.animationImages = [NSArray arrayWithObjects:
-                                       [UIImage imageNamed:@"icon_titlebar_voice1"],
-                                       [UIImage imageNamed:@"icon_titlebar_voice2"], nil];
+                                       [TBFaceSDKUtil imageNamed:@"icon_titlebar_voice1"],
+                                       [TBFaceSDKUtil imageNamed:@"icon_titlebar_voice2"], nil];
     _voiceImageView.animationDuration = 2;
     _voiceImageView.animationRepeatCount = 0;
     NSNumber *soundMode = [[NSUserDefaults standardUserDefaults] objectForKey:@"SoundMode"];
     if (soundMode.boolValue){
         [_voiceImageView startAnimating];
     } else {
-        _voiceImageView.image = [UIImage imageNamed:@"icon_titlebar_voice_close"];
+        _voiceImageView.image = [TBFaceSDKUtil imageNamed:@"icon_titlebar_voice_close"];
     }
     _voiceImageView.userInteractionEnabled = YES;
     UITapGestureRecognizer *changeVoidceSet = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(changeVoidceSet:)];
@@ -265,7 +266,7 @@
     // 底部logo部分
     UIImageView *logoImageView = [[UIImageView alloc] init];
     logoImageView.frame = CGRectMake(0, CGRectGetMaxY(self.view.frame) - 221, ScreenWidth, 221);
-    logoImageView.image = [UIImage imageNamed:@"bg_bottom_pattern"];
+    logoImageView.image = [TBFaceSDKUtil imageNamed:@"bg_bottom_pattern"];
     [self.view addSubview:logoImageView];
     
     // 设置logo，底部的位置和大小，实例化显示
@@ -434,7 +435,7 @@
     NSLog(@"点击");
     if (soundMode.boolValue && _voiceImageView.animating) {
         [_voiceImageView stopAnimating];
-        _voiceImageView.image = [UIImage imageNamed:@"icon_titlebar_voice_close"];
+        _voiceImageView.image = [TBFaceSDKUtil imageNamed:@"icon_titlebar_voice_close"];
         // 之前是开启的，点击后关闭
         [[NSUserDefaults standardUserDefaults] setObject:@(NO) forKey:@"SoundMode"];
         // 活体声音

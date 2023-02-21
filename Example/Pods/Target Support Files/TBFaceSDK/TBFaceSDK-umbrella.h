@@ -48,6 +48,8 @@
 #import "BDFaceLogoView.h"
 #import "BDFaceRemindAnimationView.h"
 #import "BDFaceRemindView.h"
+#import "NSBundle+NSBundleAdd.h"
+#import "NSObject+PAITSwizzle.h"
 
 FOUNDATION_EXPORT double TBFaceSDKVersionNumber;
 FOUNDATION_EXPORT const unsigned char TBFaceSDKVersionString[];

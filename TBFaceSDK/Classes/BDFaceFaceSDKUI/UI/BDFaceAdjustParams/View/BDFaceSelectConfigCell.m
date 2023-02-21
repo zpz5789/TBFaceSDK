@@ -9,6 +9,7 @@
 #import "BDFaceSelectConfigCell.h"
 #import "BDFaceSelectItem.h"
 #import "UIColor+BDFaceColorUtils.h"
+#import "TBFaceSDKUtil.h"
 
 float const BDFaceSelectConfigCellHeight = 48.0f;
 
@@ -92,7 +93,7 @@ static NSString *const BDFaceSelectRightArrowImage = @"right_arrow";
     if (!self.arrowButton) {
         self.arrowButton = [[UIButton alloc] init];
         [self addSubview:self.arrowButton];
-        [self.arrowButton setImage:[UIImage imageNamed:BDFaceSelectRightArrowImage] forState:UIControlStateNormal];
+        [self.arrowButton setImage:[TBFaceSDKUtil imageNamed:BDFaceSelectRightArrowImage] forState:UIControlStateNormal];
         [self.arrowButton addTarget:self action:@selector(userDidChooseToAdjustParams) forControlEvents:UIControlEventTouchUpInside];
     }
     

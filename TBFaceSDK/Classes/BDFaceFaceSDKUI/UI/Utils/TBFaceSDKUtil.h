@@ -13,6 +13,8 @@ NS_ASSUME_NONNULL_BEGIN
 @interface TBFaceSDKUtil : NSObject
 /// 加载bundle中资源图片
 + (UIImage *)imageNamed:(NSString *)name;
+
++ (NSBundle *)resourceBundle;
 @end
 
 NS_ASSUME_NONNULL_END

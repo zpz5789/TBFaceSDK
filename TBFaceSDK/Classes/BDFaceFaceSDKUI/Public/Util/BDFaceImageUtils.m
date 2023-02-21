@@ -8,6 +8,7 @@
 
 #import "BDFaceImageUtils.h"
 #import <CoreGraphics/CoreGraphics.h>
+#import "TBFaceSDKUtil.h"
 
 @implementation BDFaceImageUtils
 
@@ -34,7 +35,7 @@
 
 
 + (UIImage *)getImageResourceForName:(NSString *)name {
-    NSString* bundlepath = [[NSBundle bundleForClass:[self class]] pathForResource:@"com.baidu.idl.face.faceSDK.bundle" ofType:nil];
+    NSString* bundlepath = [[TBFaceSDKUtil resourceBundle] pathForResource:@"com.baidu.idl.face.faceSDK.bundle" ofType:nil];
     NSBundle* modelBundle = [NSBundle bundleWithPath:bundlepath];
     NSString* imagePath = [modelBundle pathForResource:name ofType:@"png"];
     return [[UIImage alloc] initWithContentsOfFile:imagePath];

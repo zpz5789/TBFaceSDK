@@ -91,7 +91,7 @@
     
     __weak typeof(self) weakSelf = self;
     [[IDLFaceLivenessManager sharedInstance] livenessNormalWithImage:image previewRect:self.previewRect detectRect:self.detectRect completionHandler:^(NSDictionary *images, FaceInfo *faceInfo, LivenessRemindCode remindCode) {
-//        NSLog(@"remindCode = %lu", (unsigned long)remindCode);
+        NSLog(@"remindCode = %lu", (unsigned long)remindCode);
 /*
  此注释里的代码用于显示人脸框，调试过程中需要显示人脸款可打开注释
  

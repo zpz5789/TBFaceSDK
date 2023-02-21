@@ -7,244 +7,240 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		08198E649CE4123C5615D187222A3EDB /* BDFaceAdjustParamsFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FA65B5C520B905800447815254331D15 /* BDFaceAdjustParamsFileManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0ADF6EAD139B72B8E7A6A67624C39442 /* BDFaceCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42A37F89C5DFB5A4123CF9F45D971346 /* BDFaceCircleView.m */; };
-		0E76957ACDC84ABC44EC5298EF99A792 /* BDFaceDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B3628D4AF0C7EC29B31DE37913491D /* BDFaceDevice.m */; };
-		1258EB9CDFA30B87DC820F3D24942D60 /* BDFaceAdjustParamsCell.h in Headers */ = {isa = PBXBuildFile; fileRef = B77B394056A2AAF7846358FE2735FE52 /* BDFaceAdjustParamsCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		16177976814A46E3E10A9B4642FE5921 /* BDFaceImageShow.m in Sources */ = {isa = PBXBuildFile; fileRef = D01A9E2769D22EFCF4734418AAAD4AAD /* BDFaceImageShow.m */; };
-		1A148289B9B89C75D3FA1D4DC0FD2147 /* BDFaceLivingConfigModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BBD871B637697C9D193E2C490C6859D /* BDFaceLivingConfigModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1AE5ECC3A9CFB51B33F48FD6417F7548 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4A1D82DE904EE6592DFD864A2D3E82E /* Foundation.framework */; };
-		1B6FD83C761B1FCC12DFB4A5B9A205B0 /* BDFaceDetectionViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E830C645BD3BF3BEB4417BE22CBCF99 /* BDFaceDetectionViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1D6D24BC81E3CAA38EE7F1739E656E69 /* BDFaceLogoView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FF83051692347DCE03AAEBA18E55872 /* BDFaceLogoView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1FCAD79BD5D7B182EB2731865D1AE5D1 /* BDFaceLogoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE0292B83DAD540DBB40821FF913756 /* BDFaceLogoView.m */; };
-		22FBB4F797061A9D5EDA3B24A3164FA9 /* BDFaceAdjustParamsController.h in Headers */ = {isa = PBXBuildFile; fileRef = AFF599C9F4A4EABF270CD31F94B5FE28 /* BDFaceAdjustParamsController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		299DB681DC7790C8726CB438418DFD76 /* BDFaceAdjustParamsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 123B9E60EFFBC129D511121B6E83560C /* BDFaceAdjustParamsController.m */; };
-		2FD21E4EF615A161A85F9B8D6AC21F0A /* BDFaceToastView.h in Headers */ = {isa = PBXBuildFile; fileRef = AB1BF2A2E8AEB327D41AC6BE1D0C1586 /* BDFaceToastView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3165410F324D3706BFDA05F746478FD0 /* BDFaceImageUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = B3ADD45CDE1C645D0453B2566016F4F0 /* BDFaceImageUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		318F1AA9926CC74719784B79C570378D /* BDFaceSelectConfigController.h in Headers */ = {isa = PBXBuildFile; fileRef = C671F5212735F22610E22ECAF2BA355C /* BDFaceSelectConfigController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3EAECDC7B789D348226FCD3C33DCF96D /* BDFaceSelectConfigCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 53CE81B8461E7146ABA56E2F9798BC97 /* BDFaceSelectConfigCell.m */; };
-		3EEB2A8528544867EF7EAA53FB067B01 /* BDFaceAdjustParamsItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DAF01BE656EA726D60F50680823187A /* BDFaceAdjustParamsItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		43708F98FAD40D1023D8EA427DF59078 /* TBFaceSDKUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = F6556A430DE33DB2D04F341093825B3C /* TBFaceSDKUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		440E6CEE2A7ACEA7B65D2B825D12BC5F /* BDFaceDetectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD8EB55EF4AC43260E73953AB9310BB /* BDFaceDetectionViewController.m */; };
-		4602EC73326569BF2BB1AF5937FBE8CD /* BDFaceSelectItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 88DC8D8A049385DFA6D33A3B9DA6F4D4 /* BDFaceSelectItem.m */; };
-		46805E12A95A036A6130CA3D9264A943 /* BDFaceSelectItem.h in Headers */ = {isa = PBXBuildFile; fileRef = B0066DC7210A52799BDC6B04C23F6EAD /* BDFaceSelectItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		487368832A2DDBF654CA614EE586E703 /* BDFaceSelectConfigModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 120F5F128FB34E6595E2A1B1639DC3F3 /* BDFaceSelectConfigModel.m */; };
-		495BFD570929F764792D7BDDDAD5BAA5 /* BDFaceLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 445F56F9E4203217E90B471726329F98 /* BDFaceLog.m */; };
-		4EC293B69938DCC6EA674BAC088F3947 /* BDFaceAdjustParamsModel.h in Headers */ = {isa = PBXBuildFile; fileRef = EA1BC4A80A7D110FB332E4EF0595886D /* BDFaceAdjustParamsModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		509C1B41E3FD17E875654B8CD1168DB6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C23867E2D1EC1CE49096F0E720B6F9DE /* UIKit.framework */; };
-		5A42222AE5681303A68C05EEA04B637F /* BDFaceRemindView.h in Headers */ = {isa = PBXBuildFile; fileRef = F1D5C1240A440907BA32D297B56C0939 /* BDFaceRemindView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5D4C53481DB19C170067DD25FAA35BC6 /* BDFaceAdjustParamsRootController.m in Sources */ = {isa = PBXBuildFile; fileRef = 568455826A4A309355C254ED9D924E37 /* BDFaceAdjustParamsRootController.m */; };
-		5DA240F8623B6297D872B6ECDD442BB9 /* BDFaceAdjustParamsFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D9411C0AB8D0DCB54A311566E27D3CD4 /* BDFaceAdjustParamsFileManager.m */; };
-		5ED1D26D075D981BD79D28EB3D25CD4A /* BDFaceBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7099FD521259C47585FDF73B1705D383 /* BDFaceBaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		619329F27C1957E01935CF8141610F4B /* BDFaceToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = 043CFCCAC8B090D6A59CDD5CCB94B691 /* BDFaceToastView.m */; };
-		629DBAC94F42C7458F04B2935F565C5D /* BDFaceAdjustParamsTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F65B94D1F80C20A00F37BEA3F913C6E /* BDFaceAdjustParamsTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6434FFC96FA75160A9DA3577B277063B /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D8A8AB1A7A2F2A4480DCB8DCCA4295C /* AssetsLibrary.framework */; };
-		678BCDD79CD814A3D791C3176FB889A5 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ECA932B04B1C5859D16D28429490B8F /* CoreTelephony.framework */; };
-		711430857A595233C47E9974D5E38FEA /* BDFaceCalculateTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E33B25E6DE9371C50CE5FDF25E310DB /* BDFaceCalculateTool.m */; };
-		74240ABF789ADF2315A856816D56E9E3 /* BDFaceSelectRadio.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DADB998B312295CB635FBFC5E95F0E5 /* BDFaceSelectRadio.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7531427F9503C0174DCED6951FCE332F /* BDFaceVideoCaptureDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE817D6674F513627B59943B23F2005 /* BDFaceVideoCaptureDevice.m */; };
-		757051638F2DA42C0DF2FECC49ABCBB6 /* TBFaceSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F0FEFAA50355A6CC65700B692C067E3 /* TBFaceSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		78281391CE9085CD858DE85D4FB832D5 /* com.baidu.idl.face.faceSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 48C6E68A424CED1B5E30F05CF7772585 /* com.baidu.idl.face.faceSDK.bundle */; };
-		788A10C4479636D0DD1A2FF710ABDC19 /* BDFaceSuccessViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C02176876EC872668F6CEF433DD6EDB9 /* BDFaceSuccessViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7DD04DEEFF31E783A8C2646CFB87A931 /* TBFaceSDKUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BAA0BF58BFB2BACB8F55FABDA116F8B /* TBFaceSDKUtil.m */; };
-		80B0584ABB4EB8F07A2940D9C7FDA9A9 /* BDFaceRemindView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE175779D9BD49823494AE119E9594B0 /* BDFaceRemindView.m */; };
+		05AB5134BBAEFBF3CC5C481A62E75D17 /* TBFaceSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E29B94AD93AF35127020790FACB6BA75 /* TBFaceSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07D98FB710A702210D17C4D110B6A0B5 /* BDFaceAdjustParamsController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C6AB75C73F545806F23473C5C6456AB /* BDFaceAdjustParamsController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07FBC8A831ADB65258EE7AAD24A6BD29 /* BDFaceLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 09A703285523EDCA11A44DBA6F13A536 /* BDFaceLog.m */; };
+		087F0E624A5AA997DC16A7DC6CF92D26 /* BDFaceLivingConfigModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD4B7C21E4263E0DFBBF720F9CA1A7B /* BDFaceLivingConfigModel.m */; };
+		0A67CD27021D7D17AD0A897AEB6AC4FB /* BDFaceSelectConfigCell.h in Headers */ = {isa = PBXBuildFile; fileRef = C0F93C96F1097873511462B709FB9143 /* BDFaceSelectConfigCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10E1362F47DA83391233AD596629F7BB /* NSObject+PAITSwizzle.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EDA8643EA48548C2B132F0DDA9BD163 /* NSObject+PAITSwizzle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11B3A72178A122DA92D14ECFFEE930C0 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D8A8AB1A7A2F2A4480DCB8DCCA4295C /* AssetsLibrary.framework */; };
+		14688ED107C7423505D9D339C61BF87B /* BDFaceLivingConfigViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29C1C3D94A8A4B61E6C14067E1DF9D11 /* BDFaceLivingConfigViewController.m */; };
+		175BE2F8DAD49B9490AD2A58C8A554B6 /* com.baidu.idl.face.model.faceSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8084157619A3F12BF9AFF36067B3F349 /* com.baidu.idl.face.model.faceSDK.bundle */; };
+		1FBFDE5341B778D44CB1C9DDF697CC40 /* BDFaceAdjustParamsItem.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD8A4EBD2E7A018E2A1BEFCEE0052C6 /* BDFaceAdjustParamsItem.m */; };
+		237EB2250D6C4DE11EABBB649C4453E0 /* BDFaceCalculateTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 88572C5A2D276EC1FD25C75D1D06B9C8 /* BDFaceCalculateTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23D6DA14AF3BB7C9A8452EEF2F4B0140 /* BDFaceLivingConfigViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 10402DD0C786EB885073BD01C7896F33 /* BDFaceLivingConfigViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2405E0436AB2159FF3F69C1EA1D7A3D9 /* BDFaceAdjustParamsTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EBF7D0A804AD325201CD6121DCE3BE8 /* BDFaceAdjustParamsTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24EFD56FA1ED7433180FACCB6752D8FA /* BDFaceSelectRadio.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FDB9799F82416E0E96AEEA6567D7E3C /* BDFaceSelectRadio.m */; };
+		251B2DC4A1B702A3989BB960015236C9 /* BDFaceImageShow.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B95FF51CBF342A16D36C95DEFCA7F1 /* BDFaceImageShow.m */; };
+		28CCC452182C6B6275C9118B4D86A836 /* BDFaceRemindAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 62B62A89B071284FFB85366B841B79FA /* BDFaceRemindAnimationView.m */; };
+		320E617EE4F6D7C6165FBFEBC73EFF6D /* BDFaceCalculateTool.m in Sources */ = {isa = PBXBuildFile; fileRef = BD914535C3498F83D483C210D60D484D /* BDFaceCalculateTool.m */; };
+		3C8576B5907251C30CF4AA469000F961 /* BDFaceImageUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BA977D5606D4826D7F11CA69A9F21A /* BDFaceImageUtils.m */; };
+		40F8DCDFA896323A8510B3135AEDD440 /* BDFaceDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = F311DD93B58041B0E3E8BC827716129D /* BDFaceDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48032F089D97493E5333B4E3100647AC /* BDFaceAdjustParamsConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 851ACF3FA5A5929F15C1D3E3FE5C8794 /* BDFaceAdjustParamsConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49A64294DBEA477E10D9F64038FC5616 /* BDFaceLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 770DCBAB2073355312020534B3508C79 /* BDFaceLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B16E9BE6011CB64DE627972F37C3F3B /* BDFaceAdjustParamsRootController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1789360935482671C0F8A4195DF90D3C /* BDFaceAdjustParamsRootController.m */; };
+		4DB6E9103F0EE30F96E92CEEBC17F4A9 /* BDFaceSelectConfigCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D4A2A4573B4DA0967F280EAD326E139 /* BDFaceSelectConfigCell.m */; };
+		503707D7AB626BC13BD93E61BA470B3B /* BDFaceAdjustParamsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1AC7F3F0B2DAEB008B984FECF0D38B /* BDFaceAdjustParamsCell.m */; };
+		525C70609C46B66CC054064E525B15EC /* BDFaceCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = AABE2EA6FA96E442B651C19AF35C7550 /* BDFaceCircleView.m */; };
+		537857D7D53989ABA71BA4ED34B7CDF0 /* BDFaceAgreementViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F67FFD2E6D1C73ABCC0B8D303D3F8914 /* BDFaceAgreementViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54172860B7D77BB6FCB23F8C7BA573B6 /* BDFaceAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC722ADBD76575C4BE670A64645A03BE /* BDFaceAlertController.m */; };
+		5474D48B45EC919DA5E67B8204034C01 /* BDFaceRemindView.h in Headers */ = {isa = PBXBuildFile; fileRef = DF906349984A5210A11DCF79D1DDC1B8 /* BDFaceRemindView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54C3C7C7CFA44ED407E4EC6D69ADAD4E /* BDFaceSuccessViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E7BF924F42EB6955EC2742F6668441E7 /* BDFaceSuccessViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54FA7EECADBF43BB5AD172F6B5886FE7 /* TBFaceSDKUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 675032EC8B012217B4AE3C470665A4F0 /* TBFaceSDKUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A547B2E5EDE9F19BB41EF32689F26A9 /* UIColor+BDFaceColorUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4ABB1D95EC85A2ABEE6E6C83555C19 /* UIColor+BDFaceColorUtils.m */; };
+		5ED62DED2E449637E1B187EE1E9F5B1E /* BDFaceAdjustParamsFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 27DCADE24062A4282A6A123CC8246482 /* BDFaceAdjustParamsFileManager.m */; };
+		5EE2153EE8C6841F317D24E0B0882CE9 /* BDFaceSelectConfigController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BD09812586A3A15013AEB056621632 /* BDFaceSelectConfigController.m */; };
+		5EF19988C366C73BE2A44674514FBF54 /* BDFaceAdjustParamsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E52130D2EF91D690E94B4B6C031A06F /* BDFaceAdjustParamsController.m */; };
+		62623AA77F06E1F47FF68FB69EBCD1A3 /* TBFaceSDKUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = EB3D349CF97D06BC15D45D1C3B862BF6 /* TBFaceSDKUtil.m */; };
+		64D05C2A1A811C74153FDC7FD8F1C8D9 /* BDFaceSelectConfigModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 14AED7CD63BF7A54B72FDD4CE3A21439 /* BDFaceSelectConfigModel.m */; };
+		65BCBCFE9066723DD7FABF479E9AC830 /* BDFaceDetectionViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EB6EC8C2E169C31F89CE3A4247064FF /* BDFaceDetectionViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B89DBC8A40E1E3CFE863EBDC96B410A /* BDFaceDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D8CA5B3892D763998FCAE952788C96 /* BDFaceDevice.m */; };
+		6E00A2A86A0E617DFF4DFC2EB4630C4C /* BDFaceSuccessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2E40FD6068F7AF89F2BE1D40E4F9402 /* BDFaceSuccessViewController.m */; };
+		6F9124BC0FD76FCACD3B0AF06875BD59 /* BDFaceAgreementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCFC2F46BA41CE86494D3BBBDCE15858 /* BDFaceAgreementViewController.m */; };
+		71401E8DFB2350A97B3E4BB53C182AC0 /* NSBundle+NSBundleAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F0B97B243500EBDC9A91D7B6AEF1D9 /* NSBundle+NSBundleAdd.m */; };
+		75CE252E1A035445C777FC287BDC38EC /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ECA932B04B1C5859D16D28429490B8F /* CoreTelephony.framework */; };
+		7B0512DE727F955CE81344828EF1D581 /* BDFaceAdjustParams.m in Sources */ = {isa = PBXBuildFile; fileRef = E052658B53875A014EDB09F74E618826 /* BDFaceAdjustParams.m */; };
+		7B8798FF62F7300F87509FE73A6AE4E7 /* UIColor+BDFaceColorUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = F35BCCEB1ACFFD16EF92FE1AFFF52ED3 /* UIColor+BDFaceColorUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		82CDFC6F9E57E720365CA47ED4B2B9E5 /* Pods-TBFaceSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F91E466F02CF2530CAC69B958D6F4F3 /* Pods-TBFaceSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		82E19FE4F33610018080C29DA5C126D9 /* com.baidu.idl.face.live.action.image.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 354E118E4A7D007FAC4E7D7BD3154AA8 /* com.baidu.idl.face.live.action.image.bundle */; };
-		85338293162030E3EE30F5211946881D /* BDFaceSuccessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0341F1480141C849557501D8C043B73 /* BDFaceSuccessViewController.m */; };
+		83296B6DE73D57D8584F334A26A291EE /* BDFaceSelectConfigModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C07EB5B47F9FC9ECA21F66A66C57641 /* BDFaceSelectConfigModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		839E2EFF05DA1E64F922C08EAD62E049 /* BDFaceImageShow.h in Headers */ = {isa = PBXBuildFile; fileRef = AD293E0F863DEAB177427561CEC19B5B /* BDFaceImageShow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86FDE1ABC08373AE402C6BB236C6696E /* BDFaceAdjustParamsRootCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD63D89A1EE2F7CD74B3205C7867839 /* BDFaceAdjustParamsRootCell.m */; };
+		8767DDBE21F077B8FCC7A241ABAC9CAF /* BDFaceCycleProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 94BA55FB9713C865CA53A136D1F2AD48 /* BDFaceCycleProgressView.m */; };
+		879A9C005B7CBFF38F8C8B45234E899D /* BDFaceCycleProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 46A987F937D47DD7FA7ECB77FCD2EC1F /* BDFaceCycleProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		891B117CC6DCAADC1DB3065D9107D75E /* Pods-TBFaceSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BA795BC34DFA0272965AC162FB6C04A /* Pods-TBFaceSDK_Tests-dummy.m */; };
-		8C05E6BB27D3C03C3058527308452A3B /* BDFaceDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 11CD8BEB7BE8635F1B84A240BF25C935 /* BDFaceDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8FFB2D840C1CEB4FE6E0CEB2262C8BEB /* BDFaceRemindAnimationView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D9AB14D473FDFC199E674ECE04EB17D /* BDFaceRemindAnimationView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		92E9FDD0C51520820721D690B3F4BE6E /* BDFaceAdjustParams.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BCEFBDA99F89BF50DB832A4591FF014 /* BDFaceAdjustParams.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9382487C7C37B94A444242F6F59330D5 /* BDFaceAdjustParamsRootCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DEA45CD4AEC94EA5B1B432A392D8053 /* BDFaceAdjustParamsRootCell.m */; };
+		89F8752FBF727AB0AED2C7DF54DC6F37 /* BDFaceLogoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A6F66056CF74A7B352DA2B3FC5FEB9 /* BDFaceLogoView.m */; };
+		8D5B96F64628AB3CEAB428A2F878A594 /* BDFaceAdjustParamsModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C935DDC6EB7683580F67B8EB0FB6B4B /* BDFaceAdjustParamsModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D77CC69C0A9F117B74E0D3E6D4102E0 /* BDFaceBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE609D865435F63572638C0E58C460AB /* BDFaceBaseViewController.m */; };
+		8F69C8E51A8AC86C329045BB61AB7E21 /* BDFaceSelectConfigController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E6A96AADC2F045F75B9BEA3BB37ACB9 /* BDFaceSelectConfigController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91F10035AE78FD3347A75254DA821F9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4A1D82DE904EE6592DFD864A2D3E82E /* Foundation.framework */; };
+		948B4BB0E2BB5F931830DD1A8CE64615 /* BDFaceVideoCaptureDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 394F0590D29797086EA87F087EB4869C /* BDFaceVideoCaptureDevice.m */; };
+		94C9DD56B51FDE40835D5B32C111BECC /* BDFaceToastView.h in Headers */ = {isa = PBXBuildFile; fileRef = CA3CB1DD0D0CB2AACA1FF9FB73A0D533 /* BDFaceToastView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		950553C9731BB10E35EF3C96E8989D8D /* Pods-TBFaceSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D83E8D801D61CA1A980FBF51EB519DCC /* Pods-TBFaceSDK_Example-dummy.m */; };
-		95C571D0632592695A0093313D211707 /* BDFaceAdjustParamsRootCell.h in Headers */ = {isa = PBXBuildFile; fileRef = EF2CB4B8AE96294035651EDF28164BB2 /* BDFaceAdjustParamsRootCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		96296FFFD98EB19B25F35FE89787F7EA /* BDFaceAgreementViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A10BEBD3557925742D8CBBE8550A44 /* BDFaceAgreementViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9B103901AF2BE5A666E406CF5D72E8A7 /* BDFaceCycleProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = D935186AFB4A040A568B33C66E2DD695 /* BDFaceCycleProgressView.m */; };
-		A0772FA5920C3EC5A4340E8CCB15A456 /* BDFaceLivingConfigViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D7FFCD52E847D74B7190E4A143A1A4D5 /* BDFaceLivingConfigViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AD5AD60A3173FD325B70DC071339AD4B /* BDFaceAgreementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21BD74BC87117060F389D71DC1B95739 /* BDFaceAgreementViewController.m */; };
-		B0063D6BC5706545243E74055421345C /* BDFaceSelectConfigModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 18A892FA681BD938802491CA85DFEAEB /* BDFaceSelectConfigModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B34483B83BBA780C5ACA7A6F905472CD /* UIColor+BDFaceColorUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 10625FA9DA1F379F9474B24C9D996B6F /* UIColor+BDFaceColorUtils.m */; };
-		B56B6ED8732175E2B5FC3C7B0FF3F68B /* FaceParameterConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 927F7DB4ED62C90C5FCFA8BF4B7E006B /* FaceParameterConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BAA59B9FF541B8E779CDD2B4637D0DBB /* BDFaceAdjustParams.m in Sources */ = {isa = PBXBuildFile; fileRef = 137E5796854A11279A070E4E8FBC7016 /* BDFaceAdjustParams.m */; };
-		BC3FD355AB25417AB5815386A1E73B94 /* TBFaceSDK-TBFaceSDK in Resources */ = {isa = PBXBuildFile; fileRef = AB706E93EDBECDBA2BD0B3BC7AF869D1 /* TBFaceSDK-TBFaceSDK */; };
-		BE3B62182E4D479E3662A5105E3C1D33 /* BDFaceSelectRadio.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E50E33855D9B2FA70F27DBDA042C377 /* BDFaceSelectRadio.m */; };
-		C0E08DC3C9958E148242D35D6AE0BBFA /* BDFaceAdjustParamsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C731318274E8C7161E63BBCA52AFA36 /* BDFaceAdjustParamsModel.m */; };
-		C20D097B514E2D2E91BFA89B4EAAC44D /* BDFaceLivenessViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 406C882D23B924F44D7C4DA27E84BE91 /* BDFaceLivenessViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C6D7C825B6B963E59B3A9303F13085D2 /* BDFaceLivenessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A25BC171B483BD9860D567149190EDF /* BDFaceLivenessViewController.m */; };
+		96DA27ADFD6D670D4A6CB95A6E91FB9B /* BDFaceAdjustParamsCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F163694A8DE280F39A5DD2278C5C5963 /* BDFaceAdjustParamsCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A837285BFE7D75DB5C0089EE8DFB905 /* BDFaceToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F28FAC5D76C209C17E9192A6889D41 /* BDFaceToastView.m */; };
+		9D64ED05C188D6948E1CFC1874D26977 /* BDFaceSelectRadio.h in Headers */ = {isa = PBXBuildFile; fileRef = AF4A63288080CCBFE37E40CB946BD1F5 /* BDFaceSelectRadio.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A95721F81D3B4668417B77E6596D36C4 /* BDFaceRemindAnimationView.h in Headers */ = {isa = PBXBuildFile; fileRef = BC9C05B58CD7D5C1C30647C98B3A71FF /* BDFaceRemindAnimationView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB91C4E10D490A97C0E4B9230BDA1D77 /* BDFaceLivenessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3ED67350362CDB4996CA5AEA7E15641 /* BDFaceLivenessViewController.m */; };
+		AF83A077E3380CD70460E0219F443799 /* TBFaceSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0D89913ED7D58230B3FC311E7C5F16 /* TBFaceSDK-dummy.m */; };
+		B37290C772EBF28EA31A3D321C99FACB /* BDFaceAlertController.h in Headers */ = {isa = PBXBuildFile; fileRef = A67D9F013572D6ACFC6C131412ED2D44 /* BDFaceAlertController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B38ADE12F9E65629D0CD05D656610E9B /* BDFaceAdjustParamsConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 0484F4E12C6221B3BBD27FBA7EF60706 /* BDFaceAdjustParamsConstants.m */; };
+		B72FA066BAB585CB817196989692662D /* BDFaceSelectItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 5609D8AEAA2ABB86856CA4B697945979 /* BDFaceSelectItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA104B5E4C6461ACCCB2CC2644367D04 /* BDFaceAdjustParamsRootCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 881B297414AA90678CB5690C9665B308 /* BDFaceAdjustParamsRootCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBDD58F868518730E613DD8A6494FEEC /* BDFaceCircleView.h in Headers */ = {isa = PBXBuildFile; fileRef = DC9607D7B2BECA4863B0A05529AEBB67 /* BDFaceCircleView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C39E60B25DF9DDC062F83A32613B2EE1 /* BDFaceImageUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 508178C314979699F48964891F8AFCDB /* BDFaceImageUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5161F9890CD13A66D33C12A9E8F1C78 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C23867E2D1EC1CE49096F0E720B6F9DE /* UIKit.framework */; };
 		CAA17E70C650FB86F70FF62527490E1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4A1D82DE904EE6592DFD864A2D3E82E /* Foundation.framework */; };
-		CB35C8C4EBE8E5119E8BA118609D31A8 /* BDFaceImageUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B269DAD11503C2A533A37A6AD29ECC9 /* BDFaceImageUtils.m */; };
-		CC282BBC634ED47F5BD1BCC84473095C /* com.baidu.idl.face.model.faceSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1732BED2DA0D35DF5DA08FBA5D925F58 /* com.baidu.idl.face.model.faceSDK.bundle */; };
+		CB05227F46C549496D1ED8BCA09A318B /* BDFaceSelectItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D564B33423C1FD01966433164663017 /* BDFaceSelectItem.m */; };
 		CC3DF9325B31C494BA411194F117EC6A /* Pods-TBFaceSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C0B6FC54465FC687406F6C7E17DA5414 /* Pods-TBFaceSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CDF143852C994F2EB8C0AC5B1163EDA8 /* BDFaceAdjustParamsItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C73B527F539C9EBF5542A7FFB290652 /* BDFaceAdjustParamsItem.m */; };
-		D10D273D26C8DAF9532760BFE038CF66 /* BDFaceSelectConfigController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC1370C0471CBADD3FBD189F6B9F4E7 /* BDFaceSelectConfigController.m */; };
-		D2807FEEDEEC216F08E12FC343A0F46B /* BDFaceSelectConfigCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D61E0AA862019488B83D1AFAFE2105B /* BDFaceSelectConfigCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D66497E91AA3C0B5A9607D7AB74182D6 /* BDFaceAdjustParamsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F283F0C3B96DF041FB6A4F6BA5133290 /* BDFaceAdjustParamsCell.m */; };
-		D6FE42B1A39B8FBDEFF41A8F0523E22B /* BDFaceImageShow.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CAD665EF0E4943CC2E0E46F964CBBE7 /* BDFaceImageShow.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DF36CF478349526ACA9D070D47C29840 /* BDFaceAdjustParamsTool.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5868C3170532EB4FBFB6DAEDC83779 /* BDFaceAdjustParamsTool.m */; };
+		CFF3738D6D9EBF2624024FEE521F6398 /* NSBundle+NSBundleAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = A119A89F61BA98EA94E3B47E97D67A71 /* NSBundle+NSBundleAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D08D659ACA8F9B6FB4B7BCF327D8124D /* FaceParameterConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = C0551F644FC4D151FD78721E87DE25F6 /* FaceParameterConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D322153DFE5B854F107287BE76B67465 /* BDFaceRemindView.m in Sources */ = {isa = PBXBuildFile; fileRef = 261C80B9B8FE5CC710D04F978EDFE9E7 /* BDFaceRemindView.m */; };
+		D3EF2E7CBE94A302077E8F082B48A6F3 /* com.baidu.idl.face.live.action.image.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 002CEB68DD3367D5ABBCB033A1F340B5 /* com.baidu.idl.face.live.action.image.bundle */; };
+		D46AD45D087338CF709A5390D9EEE5B9 /* BDFaceAdjustParamsTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E05910775275B2E893B1E84588DB05 /* BDFaceAdjustParamsTool.m */; };
+		D791D21B84C790C1BB978400EB1378F2 /* NSObject+PAITSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE161EBA0F76100013C76B85B9D521E /* NSObject+PAITSwizzle.m */; };
+		D9B040AD85485CBD6F3C363353F2AFF9 /* BDFaceBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FE50AC06C1E421DA353C1C15172FA39 /* BDFaceBaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E042CE8EF89DEF1F58FC31BE314E6A2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4A1D82DE904EE6592DFD864A2D3E82E /* Foundation.framework */; };
-		E28E60B472AE9B9651804C8A47D6ED4A /* BDFaceAdjustParamsConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A95A7E9AB0C775E247F3A72EC71ADB /* BDFaceAdjustParamsConstants.m */; };
-		E5A1180DF745269A77E1D62F9EF0984E /* BDFaceLog.h in Headers */ = {isa = PBXBuildFile; fileRef = FB8580FB4CBED9370F50FF440127F71D /* BDFaceLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E8C9973BF96EBFDE4CFB0AF6FB243803 /* BDFaceVideoCaptureDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 418A3285BB951CB377F8209D1F629528 /* BDFaceVideoCaptureDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EA0F0A30E72A9833169EB1D157A9AAE4 /* BDFaceAlertController.h in Headers */ = {isa = PBXBuildFile; fileRef = 036F62A2C1B35976546DD9685B5C71A7 /* BDFaceAlertController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EB21CFA6E4BD14AEDD99578CB2A56BB9 /* BDFaceCircleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 49B47D25647FF0143B0658945CFD6125 /* BDFaceCircleView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EBA34D94C26F4E21EC850BB732F57B15 /* UIColor+BDFaceColorUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 517B6BD61D07C653396690C338A3F695 /* UIColor+BDFaceColorUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EE8C74577FB8592D7F1E6F70E852F84A /* BDFaceLivingConfigModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF97291DF36CAAE8C695CAD4CD58574 /* BDFaceLivingConfigModel.m */; };
-		EF0E1103B630E041F40C35C0F180446F /* BDFaceCycleProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = BE1457FCA16245A04073525BE09CC83B /* BDFaceCycleProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EFB364D9B8DA0AACE47A71EACB25C655 /* BDFaceAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FFF2766ADEAA5F1A28FCB082AF04043 /* BDFaceAlertController.m */; };
-		F23CAD737B57425CC1D4332E046F24D2 /* BDFaceLivingConfigViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD70BD8BE1C1FAB39917B976F5FA466 /* BDFaceLivingConfigViewController.m */; };
-		F3229D2A1665D5256A86625B128A1481 /* BDFaceBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78CE9D259F45EE601160A3AE6CE36674 /* BDFaceBaseViewController.m */; };
-		F3C03EF722DB0743D4B63C611DCFD328 /* BDFaceCalculateTool.h in Headers */ = {isa = PBXBuildFile; fileRef = AC9E40758E5772FA4B2CB852101C34C9 /* BDFaceCalculateTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F606657158E0B2421D0900B047ED088A /* BDFaceRemindAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6C04BB019A7293B3330437003D41A1 /* BDFaceRemindAnimationView.m */; };
-		FCFA537F63AC38C42274C0A356E5FE7A /* BDFaceAdjustParamsConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = EB1906BEF92C714BBD4021D6D9F2BAFE /* BDFaceAdjustParamsConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FDD90A938838AD86BDE88C409D405C19 /* TBFaceSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF4CFCD110DA33A8776A119FFD27D57 /* TBFaceSDK-dummy.m */; };
-		FE5B91DA277F19203CFB814E85A1366B /* BDFaceAdjustParamsRootController.h in Headers */ = {isa = PBXBuildFile; fileRef = A6D9FC6EF628FAD30142036352386AF1 /* BDFaceAdjustParamsRootController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FF32B74B99705A2D57E43E93A1D89B7E /* BDFaceParamsConfig.json in Resources */ = {isa = PBXBuildFile; fileRef = 94DB4A13C9EC959965BD8BECA98B1B35 /* BDFaceParamsConfig.json */; };
-		FFA547B65D9019D10718BE60B1082091 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D5106DC2C8D6075C8EA0D01F1563606 /* Assets.xcassets */; };
+		E1F43AFD76F32828F2144CAAA27E555C /* BDFaceLivingConfigModel.h in Headers */ = {isa = PBXBuildFile; fileRef = B8D6FEAC04F186E0B9C48E56BC46FF44 /* BDFaceLivingConfigModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7651A0B5260CDC275ADBC09994798C6 /* BDFaceAdjustParamsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 63364DF63893BC5A6A53EEA7436F49A8 /* BDFaceAdjustParamsModel.m */; };
+		E8D51506B4D196BB39B0A0FBA9FFA235 /* BDFaceAdjustParamsFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 02A797244B6B2A446DB3403B9F6071E3 /* BDFaceAdjustParamsFileManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB8E1CF086D421B7AEB7CDB0B9918E38 /* BDFaceLogoView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B060E8BD2CB06C965C967BBA8DCB036 /* BDFaceLogoView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EBA3AC3C88A15DE44709654C19F1A1A4 /* BDFaceDetectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB00EDC8B20CC52505040BDE13232AB /* BDFaceDetectionViewController.m */; };
+		EE070693837F715C4464F5A766ADB96A /* BDFaceAdjustParams.h in Headers */ = {isa = PBXBuildFile; fileRef = DF28AC2F9C368A8E495E987BCB7548DE /* BDFaceAdjustParams.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEF85303D2318B41E465CFFC16E1F07C /* BDFaceVideoCaptureDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FEF89748EFEFACAB6C84EBC2E551B3F /* BDFaceVideoCaptureDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F273191AB49735381FC2A2832A9B96A0 /* BDFaceLivenessViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E58E4DF8DBD7CA56360A47A855FAD17 /* BDFaceLivenessViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F340E2AA696053A33DFB460F879156CA /* BDFaceAdjustParamsItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 641BDC1056F265121EB94427CD8FE665 /* BDFaceAdjustParamsItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F52A3159F0CD6911D840AFE1BA3C56D0 /* com.baidu.idl.face.faceSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 23366FA7C6BEB7AC619F5089DF5B2201 /* com.baidu.idl.face.faceSDK.bundle */; };
+		FD149EBC2B3F25C7BFCB9F1DA818D0F2 /* BDFaceAdjustParamsRootController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B081DC80E0D440F41E9F9F415F58F75 /* BDFaceAdjustParamsRootController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF6FBC2EBD696E681659C9DC9FD131FE /* BDFaceSDKUI.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7A13F3969D08581DCA1D2E869D2CE758 /* BDFaceSDKUI.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1F9883694C41C0868BD2074131C4F1BF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2554E40E9BA4EBDFCEC1877568B1CD7E;
-			remoteInfo = "Pods-TBFaceSDK_Example";
-		};
-		40F8DEB0DC1B654CC04264D701FE213D /* PBXContainerItemProxy */ = {
+		4BA7693E7FC0BCC6195261907BE7381D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 202609325C7AF24C6BCF4607D70DFD35;
 			remoteInfo = TBFaceSDK;
 		};
-		90A1F144A91A0CCAEBE816D2153E80E9 /* PBXContainerItemProxy */ = {
+		F04116CF4B396A04CE8A5AD5E1C6F8E2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 161E0B0D6038B87B5BA218880B562C6C;
-			remoteInfo = "TBFaceSDK-TBFaceSDK";
+			remoteGlobalIDString = 2554E40E9BA4EBDFCEC1877568B1CD7E;
+			remoteInfo = "Pods-TBFaceSDK_Example";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		036F62A2C1B35976546DD9685B5C71A7 /* BDFaceAlertController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDFaceAlertController.h; sourceTree = "<group>"; };
-		043CFCCAC8B090D6A59CDD5CCB94B691 /* BDFaceToastView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BDFaceToastView.m; sourceTree = "<group>"; };
-		0B2A71070FC4DA06258BF23D94DE4D97 /* TBFaceSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TBFaceSDK.debug.xcconfig; sourceTree = "<group>"; };
-		0DADB998B312295CB635FBFC5E95F0E5 /* BDFaceSelectRadio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDFaceSelectRadio.h; sourceTree = "<group>"; };
-		0E33B25E6DE9371C50CE5FDF25E310DB /* BDFaceCalculateTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BDFaceCalculateTool.m; sourceTree = "<group>"; };
-		10625FA9DA1F379F9474B24C9D996B6F /* UIColor+BDFaceColorUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+BDFaceColorUtils.m"; sourceTree = "<group>"; };
-		11CD8BEB7BE8635F1B84A240BF25C935 /* BDFaceDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDFaceDevice.h; sourceTree = "<group>"; };
-		120F5F128FB34E6595E2A1B1639DC3F3 /* BDFaceSelectConfigModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BDFaceSelectConfigModel.m; sourceTree = "<group>"; };
-		123B9E60EFFBC129D511121B6E83560C /* BDFaceAdjustParamsController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BDFaceAdjustParamsController.m; sourceTree = "<group>"; };
-		137E5796854A11279A070E4E8FBC7016 /* BDFaceAdjustParams.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BDFaceAdjustParams.m; sourceTree = "<group>"; };
-		1732BED2DA0D35DF5DA08FBA5D925F58 /* com.baidu.idl.face.model.faceSDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = com.baidu.idl.face.model.faceSDK.bundle; sourceTree = "<group>"; };
-		18A892FA681BD938802491CA85DFEAEB /* BDFaceSelectConfigModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDFaceSelectConfigModel.h; sourceTree = "<group>"; };
+		002CEB68DD3367D5ABBCB033A1F340B5 /* com.baidu.idl.face.live.action.image.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = com.baidu.idl.face.live.action.image.bundle; sourceTree = "<group>"; };
+		02A797244B6B2A446DB3403B9F6071E3 /* BDFaceAdjustParamsFileManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDFaceAdjustParamsFileManager.h; sourceTree = "<group>"; };
+		0484F4E12C6221B3BBD27FBA7EF60706 /* BDFaceAdjustParamsConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BDFaceAdjustParamsConstants.m; sourceTree = "<group>"; };
+		09A703285523EDCA11A44DBA6F13A536 /* BDFaceLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BDFaceLog.m; sourceTree = "<group>"; };
+		0A1AC7F3F0B2DAEB008B984FECF0D38B /* BDFaceAdjustParamsCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BDFaceAdjustParamsCell.m; sourceTree = "<group>"; };
+		0D564B33423C1FD01966433164663017 /* BDFaceSelectItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BDFaceSelectItem.m; sourceTree = "<group>"; };
+		0FE50AC06C1E421DA353C1C15172FA39 /* BDFaceBaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDFaceBaseViewController.h; sourceTree = "<group>"; };
+		0FEF89748EFEFACAB6C84EBC2E551B3F /* BDFaceVideoCaptureDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDFaceVideoCaptureDevice.h; sourceTree = "<group>"; };
+		10402DD0C786EB885073BD01C7896F33 /* BDFaceLivingConfigViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDFaceLivingConfigViewController.h; sourceTree = "<group>"; };
+		14AED7CD63BF7A54B72FDD4CE3A21439 /* BDFaceSelectConfigModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BDFaceSelectConfigModel.m; sourceTree = "<group>"; };
+		1789360935482671C0F8A4195DF90D3C /* BDFaceAdjustParamsRootController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BDFaceAdjustParamsRootController.m; sourceTree = "<group>"; };
 		1BA795BC34DFA0272965AC162FB6C04A /* Pods-TBFaceSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TBFaceSDK_Tests-dummy.m"; sourceTree = "<group>"; };
+		1E52130D2EF91D690E94B4B6C031A06F /* BDFaceAdjustParamsController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BDFaceAdjustParamsController.m; sourceTree = "<group>"; };
 		1ECA932B04B1C5859D16D28429490B8F /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
-		21BD74BC87117060F389D71DC1B95739 /* BDFaceAgreementViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BDFaceAgreementViewController.m; sourceTree = "<group>"; };
-		2AB7C520A79B9E75912F65E51937CC20 /* ResourceBundle-TBFaceSDK-TBFaceSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TBFaceSDK-TBFaceSDK-Info.plist"; sourceTree = "<group>"; };
-		2B269DAD11503C2A533A37A6AD29ECC9 /* BDFaceImageUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BDFaceImageUtils.m; sourceTree = "<group>"; };
-		2BBD871B637697C9D193E2C490C6859D /* BDFaceLivingConfigModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDFaceLivingConfigModel.h; sourceTree = "<group>"; };
+		23366FA7C6BEB7AC619F5089DF5B2201 /* com.baidu.idl.face.faceSDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = com.baidu.idl.face.faceSDK.bundle; sourceTree = "<group>"; };
+		23630AF5F632182ADCB3ED04DF497093 /* TBFaceSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TBFaceSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		25F28FAC5D76C209C17E9192A6889D41 /* BDFaceToastView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BDFaceToastView.m; sourceTree = "<group>"; };
+		261C80B9B8FE5CC710D04F978EDFE9E7 /* BDFaceRemindView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BDFaceRemindView.m; sourceTree = "<group>"; };
+		27DCADE24062A4282A6A123CC8246482 /* BDFaceAdjustParamsFileManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BDFaceAdjustParamsFileManager.m; sourceTree = "<group>"; };
+		29C1C3D94A8A4B61E6C14067E1DF9D11 /* BDFaceLivingConfigViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BDFaceLivingConfigViewController.m; sourceTree = "<group>"; };
+		29F0B97B243500EBDC9A91D7B6AEF1D9 /* NSBundle+NSBundleAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+NSBundleAdd.m"; sourceTree = "<group>"; };
+		2B060E8BD2CB06C965C967BBA8DCB036 /* BDFaceLogoView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDFaceLogoView.h; sourceTree = "<group>"; };
+		2C07EB5B47F9FC9ECA21F66A66C57641 /* BDFaceSelectConfigModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDFaceSelectConfigModel.h; sourceTree = "<group>"; };
 		2E74EE827B2FE59968FEB6D4A8195327 /* Pods-TBFaceSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TBFaceSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		2E830C645BD3BF3BEB4417BE22CBCF99 /* BDFaceDetectionViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDFaceDetectionViewController.h; sourceTree = "<group>"; };
-		2F65B94D1F80C20A00F37BEA3F913C6E /* BDFaceAdjustParamsTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDFaceAdjustParamsTool.h; sourceTree = "<group>"; };
+		2EDA8643EA48548C2B132F0DDA9BD163 /* NSObject+PAITSwizzle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+PAITSwizzle.h"; sourceTree = "<group>"; };
 		2F91E466F02CF2530CAC69B958D6F4F3 /* Pods-TBFaceSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TBFaceSDK_Example-umbrella.h"; sourceTree = "<group>"; };
-		354E118E4A7D007FAC4E7D7BD3154AA8 /* com.baidu.idl.face.live.action.image.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = com.baidu.idl.face.live.action.image.bundle; sourceTree = "<group>"; };
-		3D5106DC2C8D6075C8EA0D01F1563606 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		406C882D23B924F44D7C4DA27E84BE91 /* BDFaceLivenessViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDFaceLivenessViewController.h; sourceTree = "<group>"; };
-		418A3285BB951CB377F8209D1F629528 /* BDFaceVideoCaptureDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDFaceVideoCaptureDevice.h; sourceTree = "<group>"; };
-		42A37F89C5DFB5A4123CF9F45D971346 /* BDFaceCircleView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BDFaceCircleView.m; sourceTree = "<group>"; };
-		445F56F9E4203217E90B471726329F98 /* BDFaceLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BDFaceLog.m; sourceTree = "<group>"; };
-		48C6E68A424CED1B5E30F05CF7772585 /* com.baidu.idl.face.faceSDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = com.baidu.idl.face.faceSDK.bundle; sourceTree = "<group>"; };
-		49B47D25647FF0143B0658945CFD6125 /* BDFaceCircleView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDFaceCircleView.h; sourceTree = "<group>"; };
-		4BCEFBDA99F89BF50DB832A4591FF014 /* BDFaceAdjustParams.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDFaceAdjustParams.h; sourceTree = "<group>"; };
+		394F0590D29797086EA87F087EB4869C /* BDFaceVideoCaptureDevice.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BDFaceVideoCaptureDevice.m; sourceTree = "<group>"; };
+		3C6AB75C73F545806F23473C5C6456AB /* BDFaceAdjustParamsController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDFaceAdjustParamsController.h; sourceTree = "<group>"; };
+		3FDB9799F82416E0E96AEEA6567D7E3C /* BDFaceSelectRadio.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BDFaceSelectRadio.m; sourceTree = "<group>"; };
+		46A987F937D47DD7FA7ECB77FCD2EC1F /* BDFaceCycleProgressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDFaceCycleProgressView.h; sourceTree = "<group>"; };
+		4C1FA0DEE2A790865EC0D96785864804 /* TBFaceSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TBFaceSDK-Info.plist"; sourceTree = "<group>"; };
 		4D8A8AB1A7A2F2A4480DCB8DCCA4295C /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/AssetsLibrary.framework; sourceTree = DEVELOPER_DIR; };
-		4EE817D6674F513627B59943B23F2005 /* BDFaceVideoCaptureDevice.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BDFaceVideoCaptureDevice.m; sourceTree = "<group>"; };
-		517B6BD61D07C653396690C338A3F695 /* UIColor+BDFaceColorUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+BDFaceColorUtils.h"; sourceTree = "<group>"; };
-		53CE81B8461E7146ABA56E2F9798BC97 /* BDFaceSelectConfigCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BDFaceSelectConfigCell.m; sourceTree = "<group>"; };
-		568455826A4A309355C254ED9D924E37 /* BDFaceAdjustParamsRootController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BDFaceAdjustParamsRootController.m; sourceTree = "<group>"; };
-		5AD70BD8BE1C1FAB39917B976F5FA466 /* BDFaceLivingConfigViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BDFaceLivingConfigViewController.m; sourceTree = "<group>"; };
-		5CAD665EF0E4943CC2E0E46F964CBBE7 /* BDFaceImageShow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDFaceImageShow.h; sourceTree = "<group>"; };
-		5D9AB14D473FDFC199E674ECE04EB17D /* BDFaceRemindAnimationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDFaceRemindAnimationView.h; sourceTree = "<group>"; };
-		5F0FEFAA50355A6CC65700B692C067E3 /* TBFaceSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TBFaceSDK-umbrella.h"; sourceTree = "<group>"; };
-		5FF83051692347DCE03AAEBA18E55872 /* BDFaceLogoView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDFaceLogoView.h; sourceTree = "<group>"; };
-		62840F85DAA5D11F80343B108DC21878 /* IDLFaceSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IDLFaceSDK.framework; path = TBFaceSDK/BDFaceSDK/IDLFaceSDK.framework; sourceTree = "<group>"; };
+		4E6A96AADC2F045F75B9BEA3BB37ACB9 /* BDFaceSelectConfigController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDFaceSelectConfigController.h; sourceTree = "<group>"; };
+		508178C314979699F48964891F8AFCDB /* BDFaceImageUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDFaceImageUtils.h; sourceTree = "<group>"; };
+		52BD09812586A3A15013AEB056621632 /* BDFaceSelectConfigController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BDFaceSelectConfigController.m; sourceTree = "<group>"; };
+		5609D8AEAA2ABB86856CA4B697945979 /* BDFaceSelectItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDFaceSelectItem.h; sourceTree = "<group>"; };
+		5BD4B7C21E4263E0DFBBF720F9CA1A7B /* BDFaceLivingConfigModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BDFaceLivingConfigModel.m; sourceTree = "<group>"; };
+		62B62A89B071284FFB85366B841B79FA /* BDFaceRemindAnimationView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BDFaceRemindAnimationView.m; sourceTree = "<group>"; };
 		6333F1A9DC1837F19A9BCEE3F100DA46 /* Pods-TBFaceSDK_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TBFaceSDK_Tests"; path = Pods_TBFaceSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63364DF63893BC5A6A53EEA7436F49A8 /* BDFaceAdjustParamsModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BDFaceAdjustParamsModel.m; sourceTree = "<group>"; };
+		641BDC1056F265121EB94427CD8FE665 /* BDFaceAdjustParamsItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDFaceAdjustParamsItem.h; sourceTree = "<group>"; };
 		66305B3244F3394C7649ADB6F36B677D /* Pods-TBFaceSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TBFaceSDK_Tests-Info.plist"; sourceTree = "<group>"; };
-		66A95A7E9AB0C775E247F3A72EC71ADB /* BDFaceAdjustParamsConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BDFaceAdjustParamsConstants.m; sourceTree = "<group>"; };
+		675032EC8B012217B4AE3C470665A4F0 /* TBFaceSDKUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TBFaceSDKUtil.h; sourceTree = "<group>"; };
 		6BBB004EA6BE32891D4347631DDAD2CB /* Pods-TBFaceSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TBFaceSDK_Example.modulemap"; sourceTree = "<group>"; };
-		7099FD521259C47585FDF73B1705D383 /* BDFaceBaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDFaceBaseViewController.h; sourceTree = "<group>"; };
+		6D4A2A4573B4DA0967F280EAD326E139 /* BDFaceSelectConfigCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BDFaceSelectConfigCell.m; sourceTree = "<group>"; };
+		6F51F42289273DB1B67505090D0DE9C5 /* TBFaceSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TBFaceSDK.modulemap; sourceTree = "<group>"; };
 		73139F55F947D40C74DD332B1A8063D5 /* TBFaceSDK */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TBFaceSDK; path = TBFaceSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		78CE9D259F45EE601160A3AE6CE36674 /* BDFaceBaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BDFaceBaseViewController.m; sourceTree = "<group>"; };
-		7A25BC171B483BD9860D567149190EDF /* BDFaceLivenessViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BDFaceLivenessViewController.m; sourceTree = "<group>"; };
-		7CD8EB55EF4AC43260E73953AB9310BB /* BDFaceDetectionViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BDFaceDetectionViewController.m; sourceTree = "<group>"; };
-		7DEA45CD4AEC94EA5B1B432A392D8053 /* BDFaceAdjustParamsRootCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BDFaceAdjustParamsRootCell.m; sourceTree = "<group>"; };
-		84B3628D4AF0C7EC29B31DE37913491D /* BDFaceDevice.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BDFaceDevice.m; sourceTree = "<group>"; };
-		86569A22939A011520065D98A55930C7 /* TBFaceSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TBFaceSDK.modulemap; sourceTree = "<group>"; };
-		88DC8D8A049385DFA6D33A3B9DA6F4D4 /* BDFaceSelectItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BDFaceSelectItem.m; sourceTree = "<group>"; };
-		8BAA0BF58BFB2BACB8F55FABDA116F8B /* TBFaceSDKUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TBFaceSDKUtil.m; sourceTree = "<group>"; };
-		8C731318274E8C7161E63BBCA52AFA36 /* BDFaceAdjustParamsModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BDFaceAdjustParamsModel.m; sourceTree = "<group>"; };
-		8C73B527F539C9EBF5542A7FFB290652 /* BDFaceAdjustParamsItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BDFaceAdjustParamsItem.m; sourceTree = "<group>"; };
-		8D61E0AA862019488B83D1AFAFE2105B /* BDFaceSelectConfigCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDFaceSelectConfigCell.h; sourceTree = "<group>"; };
-		8E50E33855D9B2FA70F27DBDA042C377 /* BDFaceSelectRadio.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BDFaceSelectRadio.m; sourceTree = "<group>"; };
-		8EE0292B83DAD540DBB40821FF913756 /* BDFaceLogoView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BDFaceLogoView.m; sourceTree = "<group>"; };
-		8FFF2766ADEAA5F1A28FCB082AF04043 /* BDFaceAlertController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BDFaceAlertController.m; sourceTree = "<group>"; };
-		927F7DB4ED62C90C5FCFA8BF4B7E006B /* FaceParameterConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FaceParameterConfig.h; path = TBFaceSDK/Classes/BDFaceFaceSDKUI/FaceParameterConfig.h; sourceTree = "<group>"; };
-		94DB4A13C9EC959965BD8BECA98B1B35 /* BDFaceParamsConfig.json */ = {isa = PBXFileReference; includeInIndex = 1; path = BDFaceParamsConfig.json; sourceTree = "<group>"; };
+		770DCBAB2073355312020534B3508C79 /* BDFaceLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDFaceLog.h; sourceTree = "<group>"; };
+		7A13F3969D08581DCA1D2E869D2CE758 /* BDFaceSDKUI.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = BDFaceSDKUI.bundle; sourceTree = "<group>"; };
+		8084157619A3F12BF9AFF36067B3F349 /* com.baidu.idl.face.model.faceSDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = com.baidu.idl.face.model.faceSDK.bundle; sourceTree = "<group>"; };
+		81A6F66056CF74A7B352DA2B3FC5FEB9 /* BDFaceLogoView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BDFaceLogoView.m; sourceTree = "<group>"; };
+		84E05910775275B2E893B1E84588DB05 /* BDFaceAdjustParamsTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BDFaceAdjustParamsTool.m; sourceTree = "<group>"; };
+		851ACF3FA5A5929F15C1D3E3FE5C8794 /* BDFaceAdjustParamsConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDFaceAdjustParamsConstants.h; sourceTree = "<group>"; };
+		87A15F9BD6B738CB482ADBC72B1B0DEF /* TBFaceSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TBFaceSDK-prefix.pch"; sourceTree = "<group>"; };
+		881B297414AA90678CB5690C9665B308 /* BDFaceAdjustParamsRootCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDFaceAdjustParamsRootCell.h; sourceTree = "<group>"; };
+		88572C5A2D276EC1FD25C75D1D06B9C8 /* BDFaceCalculateTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDFaceCalculateTool.h; sourceTree = "<group>"; };
+		8B081DC80E0D440F41E9F9F415F58F75 /* BDFaceAdjustParamsRootController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDFaceAdjustParamsRootController.h; sourceTree = "<group>"; };
+		8C935DDC6EB7683580F67B8EB0FB6B4B /* BDFaceAdjustParamsModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDFaceAdjustParamsModel.h; sourceTree = "<group>"; };
+		8E4ABB1D95EC85A2ABEE6E6C83555C19 /* UIColor+BDFaceColorUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+BDFaceColorUtils.m"; sourceTree = "<group>"; };
+		8E58E4DF8DBD7CA56360A47A855FAD17 /* BDFaceLivenessViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDFaceLivenessViewController.h; sourceTree = "<group>"; };
+		8EB00EDC8B20CC52505040BDE13232AB /* BDFaceDetectionViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BDFaceDetectionViewController.m; sourceTree = "<group>"; };
+		8EBF7D0A804AD325201CD6121DCE3BE8 /* BDFaceAdjustParamsTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDFaceAdjustParamsTool.h; sourceTree = "<group>"; };
+		94BA55FB9713C865CA53A136D1F2AD48 /* BDFaceCycleProgressView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BDFaceCycleProgressView.m; sourceTree = "<group>"; };
 		97DEC7003C35768B16F272B6A556AF3D /* Pods-TBFaceSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TBFaceSDK_Tests.modulemap"; sourceTree = "<group>"; };
-		9AC1370C0471CBADD3FBD189F6B9F4E7 /* BDFaceSelectConfigController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BDFaceSelectConfigController.m; sourceTree = "<group>"; };
-		9AF97291DF36CAAE8C695CAD4CD58574 /* BDFaceLivingConfigModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BDFaceLivingConfigModel.m; sourceTree = "<group>"; };
+		99D8CA5B3892D763998FCAE952788C96 /* BDFaceDevice.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BDFaceDevice.m; sourceTree = "<group>"; };
+		9AD63D89A1EE2F7CD74B3205C7867839 /* BDFaceAdjustParamsRootCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BDFaceAdjustParamsRootCell.m; sourceTree = "<group>"; };
+		9B666ED439AF49BB9719CAD3DBFC921C /* TBFaceSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TBFaceSDK.debug.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9DAF01BE656EA726D60F50680823187A /* BDFaceAdjustParamsItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDFaceAdjustParamsItem.h; sourceTree = "<group>"; };
+		9EB6EC8C2E169C31F89CE3A4247064FF /* BDFaceDetectionViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDFaceDetectionViewController.h; sourceTree = "<group>"; };
 		9FDB68C763B4E0D068DB643B059AB29F /* Pods-TBFaceSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TBFaceSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		A6D9FC6EF628FAD30142036352386AF1 /* BDFaceAdjustParamsRootController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDFaceAdjustParamsRootController.h; sourceTree = "<group>"; };
+		A119A89F61BA98EA94E3B47E97D67A71 /* NSBundle+NSBundleAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSBundle+NSBundleAdd.h"; sourceTree = "<group>"; };
+		A5BA977D5606D4826D7F11CA69A9F21A /* BDFaceImageUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BDFaceImageUtils.m; sourceTree = "<group>"; };
+		A67D9F013572D6ACFC6C131412ED2D44 /* BDFaceAlertController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDFaceAlertController.h; sourceTree = "<group>"; };
 		AA459056A376B377E9E309BC9C0A3603 /* Pods-TBFaceSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TBFaceSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		AB1BF2A2E8AEB327D41AC6BE1D0C1586 /* BDFaceToastView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDFaceToastView.h; sourceTree = "<group>"; };
-		AB706E93EDBECDBA2BD0B3BC7AF869D1 /* TBFaceSDK-TBFaceSDK */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "TBFaceSDK-TBFaceSDK"; path = TBFaceSDK.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		AC9E40758E5772FA4B2CB852101C34C9 /* BDFaceCalculateTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDFaceCalculateTool.h; sourceTree = "<group>"; };
+		AABE2EA6FA96E442B651C19AF35C7550 /* BDFaceCircleView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BDFaceCircleView.m; sourceTree = "<group>"; };
+		AD293E0F863DEAB177427561CEC19B5B /* BDFaceImageShow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDFaceImageShow.h; sourceTree = "<group>"; };
 		AD4BD709695BB65344624608CC645598 /* Pods-TBFaceSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TBFaceSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		AE175779D9BD49823494AE119E9594B0 /* BDFaceRemindView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BDFaceRemindView.m; sourceTree = "<group>"; };
-		AFF599C9F4A4EABF270CD31F94B5FE28 /* BDFaceAdjustParamsController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDFaceAdjustParamsController.h; sourceTree = "<group>"; };
-		B0066DC7210A52799BDC6B04C23F6EAD /* BDFaceSelectItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDFaceSelectItem.h; sourceTree = "<group>"; };
-		B3ADD45CDE1C645D0453B2566016F4F0 /* BDFaceImageUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDFaceImageUtils.h; sourceTree = "<group>"; };
-		B5A10BEBD3557925742D8CBBE8550A44 /* BDFaceAgreementViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDFaceAgreementViewController.h; sourceTree = "<group>"; };
-		B77B394056A2AAF7846358FE2735FE52 /* BDFaceAdjustParamsCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDFaceAdjustParamsCell.h; sourceTree = "<group>"; };
-		BD5868C3170532EB4FBFB6DAEDC83779 /* BDFaceAdjustParamsTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BDFaceAdjustParamsTool.m; sourceTree = "<group>"; };
-		BE1457FCA16245A04073525BE09CC83B /* BDFaceCycleProgressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDFaceCycleProgressView.h; sourceTree = "<group>"; };
-		C02176876EC872668F6CEF433DD6EDB9 /* BDFaceSuccessViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDFaceSuccessViewController.h; sourceTree = "<group>"; };
+		AF4A63288080CCBFE37E40CB946BD1F5 /* BDFaceSelectRadio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDFaceSelectRadio.h; sourceTree = "<group>"; };
+		B3ED67350362CDB4996CA5AEA7E15641 /* BDFaceLivenessViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BDFaceLivenessViewController.m; sourceTree = "<group>"; };
+		B8D6FEAC04F186E0B9C48E56BC46FF44 /* BDFaceLivingConfigModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDFaceLivingConfigModel.h; sourceTree = "<group>"; };
+		BC86718670E8EDD9DFF937259966E486 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		BC9C05B58CD7D5C1C30647C98B3A71FF /* BDFaceRemindAnimationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDFaceRemindAnimationView.h; sourceTree = "<group>"; };
+		BD914535C3498F83D483C210D60D484D /* BDFaceCalculateTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BDFaceCalculateTool.m; sourceTree = "<group>"; };
+		C0551F644FC4D151FD78721E87DE25F6 /* FaceParameterConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FaceParameterConfig.h; sourceTree = "<group>"; };
 		C0B6FC54465FC687406F6C7E17DA5414 /* Pods-TBFaceSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TBFaceSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C0F93C96F1097873511462B709FB9143 /* BDFaceSelectConfigCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDFaceSelectConfigCell.h; sourceTree = "<group>"; };
 		C23867E2D1EC1CE49096F0E720B6F9DE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		C4A1D82DE904EE6592DFD864A2D3E82E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		C5DF365D2DF64FA4A263F7D797FA9E19 /* Pods-TBFaceSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TBFaceSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C671F5212735F22610E22ECAF2BA355C /* BDFaceSelectConfigController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDFaceSelectConfigController.h; sourceTree = "<group>"; };
-		CF6C04BB019A7293B3330437003D41A1 /* BDFaceRemindAnimationView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BDFaceRemindAnimationView.m; sourceTree = "<group>"; };
-		D01A9E2769D22EFCF4734418AAAD4AAD /* BDFaceImageShow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BDFaceImageShow.m; sourceTree = "<group>"; };
-		D1D1970AC6EDC144769A117C7BBF4961 /* TBFaceSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TBFaceSDK.release.xcconfig; sourceTree = "<group>"; };
+		CA3CB1DD0D0CB2AACA1FF9FB73A0D533 /* BDFaceToastView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDFaceToastView.h; sourceTree = "<group>"; };
+		CB5D97BB5DFD392C1310BB157F7F5392 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		CCFC2F46BA41CE86494D3BBBDCE15858 /* BDFaceAgreementViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BDFaceAgreementViewController.m; sourceTree = "<group>"; };
 		D28F18D34AF205783B40B447A2A8ADA9 /* Pods-TBFaceSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TBFaceSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D2E40FD6068F7AF89F2BE1D40E4F9402 /* BDFaceSuccessViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BDFaceSuccessViewController.m; sourceTree = "<group>"; };
 		D70995B00AB5E3D1380FEAE645D2EBD5 /* Pods-TBFaceSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TBFaceSDK_Example-Info.plist"; sourceTree = "<group>"; };
-		D7FFCD52E847D74B7190E4A143A1A4D5 /* BDFaceLivingConfigViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDFaceLivingConfigViewController.h; sourceTree = "<group>"; };
+		D765DF256D4C64F61F604EFA8713E2D8 /* TBFaceSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TBFaceSDK.release.xcconfig; sourceTree = "<group>"; };
 		D83E8D801D61CA1A980FBF51EB519DCC /* Pods-TBFaceSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TBFaceSDK_Example-dummy.m"; sourceTree = "<group>"; };
 		D84C6BC1647DDFEF9256F6D3026C7C3D /* Pods-TBFaceSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TBFaceSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
-		D935186AFB4A040A568B33C66E2DD695 /* BDFaceCycleProgressView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BDFaceCycleProgressView.m; sourceTree = "<group>"; };
-		D9411C0AB8D0DCB54A311566E27D3CD4 /* BDFaceAdjustParamsFileManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BDFaceAdjustParamsFileManager.m; sourceTree = "<group>"; };
+		DA0D89913ED7D58230B3FC311E7C5F16 /* TBFaceSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TBFaceSDK-dummy.m"; sourceTree = "<group>"; };
+		DC9607D7B2BECA4863B0A05529AEBB67 /* BDFaceCircleView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDFaceCircleView.h; sourceTree = "<group>"; };
+		DCD8A4EBD2E7A018E2A1BEFCEE0052C6 /* BDFaceAdjustParamsItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BDFaceAdjustParamsItem.m; sourceTree = "<group>"; };
+		DF28AC2F9C368A8E495E987BCB7548DE /* BDFaceAdjustParams.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDFaceAdjustParams.h; sourceTree = "<group>"; };
+		DF906349984A5210A11DCF79D1DDC1B8 /* BDFaceRemindView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDFaceRemindView.h; sourceTree = "<group>"; };
+		E052658B53875A014EDB09F74E618826 /* BDFaceAdjustParams.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BDFaceAdjustParams.m; sourceTree = "<group>"; };
 		E155A803AE5620F425BDFFA1D81C1F83 /* Pods-TBFaceSDK_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TBFaceSDK_Example"; path = Pods_TBFaceSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E29B94AD93AF35127020790FACB6BA75 /* TBFaceSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TBFaceSDK-umbrella.h"; sourceTree = "<group>"; };
+		E550DFDB6C879A9D9EFA2652BADE6E97 /* IDLFaceSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IDLFaceSDK.framework; path = TBFaceSDK/BDFaceSDK/IDLFaceSDK.framework; sourceTree = "<group>"; };
 		E77B0B27992F9FF5407DD43459A2CCA9 /* Pods-TBFaceSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TBFaceSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E7A5D88209F514814763E7A4F0B03AD6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		EA1BC4A80A7D110FB332E4EF0595886D /* BDFaceAdjustParamsModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDFaceAdjustParamsModel.h; sourceTree = "<group>"; };
+		E7BF924F42EB6955EC2742F6668441E7 /* BDFaceSuccessViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDFaceSuccessViewController.h; sourceTree = "<group>"; };
 		EA8CE03F9323B16E686008ACF10A9C26 /* Pods-TBFaceSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TBFaceSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		EB1906BEF92C714BBD4021D6D9F2BAFE /* BDFaceAdjustParamsConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDFaceAdjustParamsConstants.h; sourceTree = "<group>"; };
-		EBFA00147199C7CA1A5CAE47BB518CBF /* TBFaceSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TBFaceSDK-Info.plist"; sourceTree = "<group>"; };
-		EE7AB3FD1261D2EA31D18D11425B5C53 /* TBFaceSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TBFaceSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		EF2CB4B8AE96294035651EDF28164BB2 /* BDFaceAdjustParamsRootCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDFaceAdjustParamsRootCell.h; sourceTree = "<group>"; };
-		F0341F1480141C849557501D8C043B73 /* BDFaceSuccessViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BDFaceSuccessViewController.m; sourceTree = "<group>"; };
-		F1D5C1240A440907BA32D297B56C0939 /* BDFaceRemindView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDFaceRemindView.h; sourceTree = "<group>"; };
-		F252F20C43B71DD74920951DB481B943 /* TBFaceSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TBFaceSDK-prefix.pch"; sourceTree = "<group>"; };
-		F283F0C3B96DF041FB6A4F6BA5133290 /* BDFaceAdjustParamsCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BDFaceAdjustParamsCell.m; sourceTree = "<group>"; };
-		F6556A430DE33DB2D04F341093825B3C /* TBFaceSDKUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TBFaceSDKUtil.h; sourceTree = "<group>"; };
-		FA65B5C520B905800447815254331D15 /* BDFaceAdjustParamsFileManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDFaceAdjustParamsFileManager.h; sourceTree = "<group>"; };
-		FA783F597B0627AD8D89BFA4050B705B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		FB8580FB4CBED9370F50FF440127F71D /* BDFaceLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDFaceLog.h; sourceTree = "<group>"; };
-		FBF4CFCD110DA33A8776A119FFD27D57 /* TBFaceSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TBFaceSDK-dummy.m"; sourceTree = "<group>"; };
+		EB3D349CF97D06BC15D45D1C3B862BF6 /* TBFaceSDKUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TBFaceSDKUtil.m; sourceTree = "<group>"; };
+		EC722ADBD76575C4BE670A64645A03BE /* BDFaceAlertController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BDFaceAlertController.m; sourceTree = "<group>"; };
+		F0B95FF51CBF342A16D36C95DEFCA7F1 /* BDFaceImageShow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BDFaceImageShow.m; sourceTree = "<group>"; };
+		F163694A8DE280F39A5DD2278C5C5963 /* BDFaceAdjustParamsCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDFaceAdjustParamsCell.h; sourceTree = "<group>"; };
+		F311DD93B58041B0E3E8BC827716129D /* BDFaceDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDFaceDevice.h; sourceTree = "<group>"; };
+		F35BCCEB1ACFFD16EF92FE1AFFF52ED3 /* UIColor+BDFaceColorUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+BDFaceColorUtils.h"; sourceTree = "<group>"; };
+		F67FFD2E6D1C73ABCC0B8D303D3F8914 /* BDFaceAgreementViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDFaceAgreementViewController.h; sourceTree = "<group>"; };
+		FE609D865435F63572638C0E58C460AB /* BDFaceBaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BDFaceBaseViewController.m; sourceTree = "<group>"; };
+		FFE161EBA0F76100013C76B85B9D521E /* NSObject+PAITSwizzle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+PAITSwizzle.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -256,13 +252,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4B13658907C3CAD380745DEC008A37A1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5E24A559FE87486ACCFC5CB1DE55CE11 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -271,42 +260,116 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BAFDF081986F4061214D7DDA9C81B6B0 /* Frameworks */ = {
+		DE43329A7382AB8B74FE6CF3940A8F09 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6434FFC96FA75160A9DA3577B277063B /* AssetsLibrary.framework in Frameworks */,
-				678BCDD79CD814A3D791C3176FB889A5 /* CoreTelephony.framework in Frameworks */,
-				1AE5ECC3A9CFB51B33F48FD6417F7548 /* Foundation.framework in Frameworks */,
-				509C1B41E3FD17E875654B8CD1168DB6 /* UIKit.framework in Frameworks */,
+				11B3A72178A122DA92D14ECFFEE930C0 /* AssetsLibrary.framework in Frameworks */,
+				75CE252E1A035445C777FC287BDC38EC /* CoreTelephony.framework in Frameworks */,
+				91F10035AE78FD3347A75254DA821F9A /* Foundation.framework in Frameworks */,
+				C5161F9890CD13A66D33C12A9E8F1C78 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0E1A95518200901A5AAE49146FFB02B1 /* Log */ = {
+		02D16456D17033A1B658CCF507BD6BFB /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				FB8580FB4CBED9370F50FF440127F71D /* BDFaceLog.h */,
-				445F56F9E4203217E90B471726329F98 /* BDFaceLog.m */,
+				6F51F42289273DB1B67505090D0DE9C5 /* TBFaceSDK.modulemap */,
+				DA0D89913ED7D58230B3FC311E7C5F16 /* TBFaceSDK-dummy.m */,
+				4C1FA0DEE2A790865EC0D96785864804 /* TBFaceSDK-Info.plist */,
+				87A15F9BD6B738CB482ADBC72B1B0DEF /* TBFaceSDK-prefix.pch */,
+				E29B94AD93AF35127020790FACB6BA75 /* TBFaceSDK-umbrella.h */,
+				9B666ED439AF49BB9719CAD3DBFC921C /* TBFaceSDK.debug.xcconfig */,
+				D765DF256D4C64F61F604EFA8713E2D8 /* TBFaceSDK.release.xcconfig */,
 			);
-			name = Log;
-			path = TBFaceSDK/Classes/BDFaceFaceSDKUI/Log;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TBFaceSDK";
 			sourceTree = "<group>";
 		};
-		1DB09F3754B95CF60BF97A997FF9AB18 /* UI */ = {
+		05392B44C471C776C461183A9EC501F1 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				4E6FDF7B246791C32D28AACEFBFC4F44 /* BDFaceAdjustParams */,
-				2F22E14B2056859D61FCB2FA37CB5B23 /* BDFaceTools */,
-				7CA889307B4993A582C370E568CF2BDE /* Controller */,
-				3192F9D8D32C78209B0F8CEF2C84CFA7 /* Interface */,
-				5C7F7B20EC7CD751B913EFA5F31F1AFD /* Utils */,
-				69F351B800C1B6AC7215FD23BA84EDD0 /* View */,
+				BC86718670E8EDD9DFF937259966E486 /* LICENSE */,
+				CB5D97BB5DFD392C1310BB157F7F5392 /* README.md */,
+				23630AF5F632182ADCB3ED04DF497093 /* TBFaceSDK.podspec */,
 			);
-			name = UI;
-			path = TBFaceSDK/Classes/BDFaceFaceSDKUI/UI;
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		0A5DE1543C9A993E13571514B4FAE79C /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				8EBF7D0A804AD325201CD6121DCE3BE8 /* BDFaceAdjustParamsTool.h */,
+				84E05910775275B2E893B1E84588DB05 /* BDFaceAdjustParamsTool.m */,
+			);
+			name = Interface;
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		103209FBDADA35D48AC563CBD73DB126 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E155A803AE5620F425BDFFA1D81C1F83 /* Pods-TBFaceSDK_Example */,
+				6333F1A9DC1837F19A9BCEE3F100DA46 /* Pods-TBFaceSDK_Tests */,
+				73139F55F947D40C74DD332B1A8063D5 /* TBFaceSDK */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15FD179C871B7DBC96D2B928B5D99DAE /* BDFaceSDK */ = {
+			isa = PBXGroup;
+			children = (
+				23366FA7C6BEB7AC619F5089DF5B2201 /* com.baidu.idl.face.faceSDK.bundle */,
+				002CEB68DD3367D5ABBCB033A1F340B5 /* com.baidu.idl.face.live.action.image.bundle */,
+				8084157619A3F12BF9AFF36067B3F349 /* com.baidu.idl.face.model.faceSDK.bundle */,
+			);
+			name = BDFaceSDK;
+			path = TBFaceSDK/BDFaceSDK;
+			sourceTree = "<group>";
+		};
+		20F61C6A55BB9FF0EEAA684B2FD724F7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F67FFD2E6D1C73ABCC0B8D303D3F8914 /* BDFaceAgreementViewController.h */,
+				CCFC2F46BA41CE86494D3BBBDCE15858 /* BDFaceAgreementViewController.m */,
+				0FE50AC06C1E421DA353C1C15172FA39 /* BDFaceBaseViewController.h */,
+				FE609D865435F63572638C0E58C460AB /* BDFaceBaseViewController.m */,
+				9EB6EC8C2E169C31F89CE3A4247064FF /* BDFaceDetectionViewController.h */,
+				8EB00EDC8B20CC52505040BDE13232AB /* BDFaceDetectionViewController.m */,
+				8E58E4DF8DBD7CA56360A47A855FAD17 /* BDFaceLivenessViewController.h */,
+				B3ED67350362CDB4996CA5AEA7E15641 /* BDFaceLivenessViewController.m */,
+				10402DD0C786EB885073BD01C7896F33 /* BDFaceLivingConfigViewController.h */,
+				29C1C3D94A8A4B61E6C14067E1DF9D11 /* BDFaceLivingConfigViewController.m */,
+				E7BF924F42EB6955EC2742F6668441E7 /* BDFaceSuccessViewController.h */,
+				D2E40FD6068F7AF89F2BE1D40E4F9402 /* BDFaceSuccessViewController.m */,
+			);
+			name = Controller;
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2196D7CDBD00966865C4B444196C27EF /* BDFaceFaceSDKUI */ = {
+			isa = PBXGroup;
+			children = (
+				C0551F644FC4D151FD78721E87DE25F6 /* FaceParameterConfig.h */,
+				2B2AB13C259E40B53386BC46253E6694 /* Log */,
+				439DB9B157B69B61AF8B5DBA69116C62 /* Public */,
+				681C8B761430DB222366F0C53EE51FE1 /* UI */,
+			);
+			name = BDFaceFaceSDKUI;
+			path = TBFaceSDK/Classes/BDFaceFaceSDKUI;
+			sourceTree = "<group>";
+		};
+		2B2AB13C259E40B53386BC46253E6694 /* Log */ = {
+			isa = PBXGroup;
+			children = (
+				770DCBAB2073355312020534B3508C79 /* BDFaceLog.h */,
+				09A703285523EDCA11A44DBA6F13A536 /* BDFaceLog.m */,
+			);
+			name = Log;
+			path = Log;
 			sourceTree = "<group>";
 		};
 		2F00EF37EF4B27D905F9C27097F8F0FA /* iOS */ = {
@@ -320,187 +383,105 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		2F22E14B2056859D61FCB2FA37CB5B23 /* BDFaceTools */ = {
+		408EF9F7A4D81F6CA40EED1F6BEB2572 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				AC9E40758E5772FA4B2CB852101C34C9 /* BDFaceCalculateTool.h */,
-				0E33B25E6DE9371C50CE5FDF25E310DB /* BDFaceCalculateTool.m */,
-				AB1BF2A2E8AEB327D41AC6BE1D0C1586 /* BDFaceToastView.h */,
-				043CFCCAC8B090D6A59CDD5CCB94B691 /* BDFaceToastView.m */,
-				517B6BD61D07C653396690C338A3F695 /* UIColor+BDFaceColorUtils.h */,
-				10625FA9DA1F379F9474B24C9D996B6F /* UIColor+BDFaceColorUtils.m */,
-			);
-			name = BDFaceTools;
-			path = BDFaceTools;
-			sourceTree = "<group>";
-		};
-		3192F9D8D32C78209B0F8CEF2C84CFA7 /* Interface */ = {
-			isa = PBXGroup;
-			children = (
-				2F65B94D1F80C20A00F37BEA3F913C6E /* BDFaceAdjustParamsTool.h */,
-				BD5868C3170532EB4FBFB6DAEDC83779 /* BDFaceAdjustParamsTool.m */,
-			);
-			name = Interface;
-			path = Interface;
-			sourceTree = "<group>";
-		};
-		3A471F11936CF3C7E2819DB238A8906B /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				62840F85DAA5D11F80343B108DC21878 /* IDLFaceSDK.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		3BB2D32A52CABE49D13BA07551121EA5 /* Util */ = {
-			isa = PBXGroup;
-			children = (
-				11CD8BEB7BE8635F1B84A240BF25C935 /* BDFaceDevice.h */,
-				84B3628D4AF0C7EC29B31DE37913491D /* BDFaceDevice.m */,
-				B3ADD45CDE1C645D0453B2566016F4F0 /* BDFaceImageUtils.h */,
-				2B269DAD11503C2A533A37A6AD29ECC9 /* BDFaceImageUtils.m */,
-			);
-			name = Util;
-			path = Util;
-			sourceTree = "<group>";
-		};
-		3F5DB93A602111922D6622C420B04FF8 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				2AB7C520A79B9E75912F65E51937CC20 /* ResourceBundle-TBFaceSDK-TBFaceSDK-Info.plist */,
-				86569A22939A011520065D98A55930C7 /* TBFaceSDK.modulemap */,
-				FBF4CFCD110DA33A8776A119FFD27D57 /* TBFaceSDK-dummy.m */,
-				EBFA00147199C7CA1A5CAE47BB518CBF /* TBFaceSDK-Info.plist */,
-				F252F20C43B71DD74920951DB481B943 /* TBFaceSDK-prefix.pch */,
-				5F0FEFAA50355A6CC65700B692C067E3 /* TBFaceSDK-umbrella.h */,
-				0B2A71070FC4DA06258BF23D94DE4D97 /* TBFaceSDK.debug.xcconfig */,
-				D1D1970AC6EDC144769A117C7BBF4961 /* TBFaceSDK.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/TBFaceSDK";
-			sourceTree = "<group>";
-		};
-		4E6FDF7B246791C32D28AACEFBFC4F44 /* BDFaceAdjustParams */ = {
-			isa = PBXGroup;
-			children = (
-				9EC112649EC8144263540DDB791A40AB /* Controller */,
-				CE15A324A1CC142402F7E56F9BD79709 /* Model */,
-				EFEEE1DBA7F817F76152468E0FC2BB45 /* View */,
-			);
-			name = BDFaceAdjustParams;
-			path = BDFaceAdjustParams;
-			sourceTree = "<group>";
-		};
-		50553E7F3A3459F806E2B380D9677B55 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				6557BFDE46BEF761B035696E20DAD9ED /* TBFaceSDK */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		57D418119A044E2B7DE64E2AA1A49A3C /* Common */ = {
-			isa = PBXGroup;
-			children = (
-				418A3285BB951CB377F8209D1F629528 /* BDFaceVideoCaptureDevice.h */,
-				4EE817D6674F513627B59943B23F2005 /* BDFaceVideoCaptureDevice.m */,
-			);
-			name = Common;
-			path = Common;
-			sourceTree = "<group>";
-		};
-		5C7F7B20EC7CD751B913EFA5F31F1AFD /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				F6556A430DE33DB2D04F341093825B3C /* TBFaceSDKUtil.h */,
-				8BAA0BF58BFB2BACB8F55FABDA116F8B /* TBFaceSDKUtil.m */,
+				675032EC8B012217B4AE3C470665A4F0 /* TBFaceSDKUtil.h */,
+				EB3D349CF97D06BC15D45D1C3B862BF6 /* TBFaceSDKUtil.m */,
 			);
 			name = Utils;
 			path = Utils;
 			sourceTree = "<group>";
 		};
-		6557BFDE46BEF761B035696E20DAD9ED /* TBFaceSDK */ = {
+		439DB9B157B69B61AF8B5DBA69116C62 /* Public */ = {
 			isa = PBXGroup;
 			children = (
-				927F7DB4ED62C90C5FCFA8BF4B7E006B /* FaceParameterConfig.h */,
-				74D081F4C0354E4F7FC3C6C34607176F /* BDFaceSDK */,
-				3A471F11936CF3C7E2819DB238A8906B /* Frameworks */,
-				0E1A95518200901A5AAE49146FFB02B1 /* Log */,
-				C6FEBD9144FEF685476DF41113BDDBBE /* Pod */,
-				EC22665014EF4600D4554B17EBBD3976 /* Public */,
-				CD400C488DC673E565E2B9F2E3CF313B /* Resource */,
-				3F5DB93A602111922D6622C420B04FF8 /* Support Files */,
-				1DB09F3754B95CF60BF97A997FF9AB18 /* UI */,
+				553CAC56E09DFC3987067D8E20218E88 /* Common */,
+				ACEDEA5427FD90219AFB6063F7938DF7 /* Model */,
+				B8F6FAC5CD1B47D9DB54051BA56C2DB4 /* Util */,
 			);
-			name = TBFaceSDK;
-			path = ../..;
+			name = Public;
+			path = Public;
 			sourceTree = "<group>";
 		};
-		69F351B800C1B6AC7215FD23BA84EDD0 /* View */ = {
+		44886708D1855CE25845BA9F479A5FFF /* Help */ = {
 			isa = PBXGroup;
 			children = (
-				49B47D25647FF0143B0658945CFD6125 /* BDFaceCircleView.h */,
-				42A37F89C5DFB5A4123CF9F45D971346 /* BDFaceCircleView.m */,
-				BE1457FCA16245A04073525BE09CC83B /* BDFaceCycleProgressView.h */,
-				D935186AFB4A040A568B33C66E2DD695 /* BDFaceCycleProgressView.m */,
-				5CAD665EF0E4943CC2E0E46F964CBBE7 /* BDFaceImageShow.h */,
-				D01A9E2769D22EFCF4734418AAAD4AAD /* BDFaceImageShow.m */,
-				5FF83051692347DCE03AAEBA18E55872 /* BDFaceLogoView.h */,
-				8EE0292B83DAD540DBB40821FF913756 /* BDFaceLogoView.m */,
-				5D9AB14D473FDFC199E674ECE04EB17D /* BDFaceRemindAnimationView.h */,
-				CF6C04BB019A7293B3330437003D41A1 /* BDFaceRemindAnimationView.m */,
-				F1D5C1240A440907BA32D297B56C0939 /* BDFaceRemindView.h */,
-				AE175779D9BD49823494AE119E9594B0 /* BDFaceRemindView.m */,
+				A119A89F61BA98EA94E3B47E97D67A71 /* NSBundle+NSBundleAdd.h */,
+				29F0B97B243500EBDC9A91D7B6AEF1D9 /* NSBundle+NSBundleAdd.m */,
+				2EDA8643EA48548C2B132F0DDA9BD163 /* NSObject+PAITSwizzle.h */,
+				FFE161EBA0F76100013C76B85B9D521E /* NSObject+PAITSwizzle.m */,
+			);
+			name = Help;
+			path = TBFaceSDK/Classes/Help;
+			sourceTree = "<group>";
+		};
+		553CAC56E09DFC3987067D8E20218E88 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				0FEF89748EFEFACAB6C84EBC2E551B3F /* BDFaceVideoCaptureDevice.h */,
+				394F0590D29797086EA87F087EB4869C /* BDFaceVideoCaptureDevice.m */,
+			);
+			name = Common;
+			path = Common;
+			sourceTree = "<group>";
+		};
+		681C8B761430DB222366F0C53EE51FE1 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				EA89E2BF8A2D3CC52929EEFFAC67F028 /* BDFaceAdjustParams */,
+				E50BC27D0E6AB4352088DD05E021886B /* BDFaceTools */,
+				20F61C6A55BB9FF0EEAA684B2FD724F7 /* Controller */,
+				0A5DE1543C9A993E13571514B4FAE79C /* Interface */,
+				408EF9F7A4D81F6CA40EED1F6BEB2572 /* Utils */,
+				7353118A976E2274A72D9D05EA1B95B8 /* View */,
+			);
+			name = UI;
+			path = UI;
+			sourceTree = "<group>";
+		};
+		7353118A976E2274A72D9D05EA1B95B8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DC9607D7B2BECA4863B0A05529AEBB67 /* BDFaceCircleView.h */,
+				AABE2EA6FA96E442B651C19AF35C7550 /* BDFaceCircleView.m */,
+				46A987F937D47DD7FA7ECB77FCD2EC1F /* BDFaceCycleProgressView.h */,
+				94BA55FB9713C865CA53A136D1F2AD48 /* BDFaceCycleProgressView.m */,
+				AD293E0F863DEAB177427561CEC19B5B /* BDFaceImageShow.h */,
+				F0B95FF51CBF342A16D36C95DEFCA7F1 /* BDFaceImageShow.m */,
+				2B060E8BD2CB06C965C967BBA8DCB036 /* BDFaceLogoView.h */,
+				81A6F66056CF74A7B352DA2B3FC5FEB9 /* BDFaceLogoView.m */,
+				BC9C05B58CD7D5C1C30647C98B3A71FF /* BDFaceRemindAnimationView.h */,
+				62B62A89B071284FFB85366B841B79FA /* BDFaceRemindAnimationView.m */,
+				DF906349984A5210A11DCF79D1DDC1B8 /* BDFaceRemindView.h */,
+				261C80B9B8FE5CC710D04F978EDFE9E7 /* BDFaceRemindView.m */,
 			);
 			name = View;
 			path = View;
 			sourceTree = "<group>";
 		};
-		74D081F4C0354E4F7FC3C6C34607176F /* BDFaceSDK */ = {
+		7C97DE068D444EFF089E87412D905D46 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				48C6E68A424CED1B5E30F05CF7772585 /* com.baidu.idl.face.faceSDK.bundle */,
-				354E118E4A7D007FAC4E7D7BD3154AA8 /* com.baidu.idl.face.live.action.image.bundle */,
-				1732BED2DA0D35DF5DA08FBA5D925F58 /* com.baidu.idl.face.model.faceSDK.bundle */,
+				E763A21341B21C312FB758920BB31B4B /* TBFaceSDK */,
 			);
-			name = BDFaceSDK;
-			path = TBFaceSDK/BDFaceSDK;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		7CA889307B4993A582C370E568CF2BDE /* Controller */ = {
+		850F645BB2893DC24A17EEA94DBCD00B /* View */ = {
 			isa = PBXGroup;
 			children = (
-				B5A10BEBD3557925742D8CBBE8550A44 /* BDFaceAgreementViewController.h */,
-				21BD74BC87117060F389D71DC1B95739 /* BDFaceAgreementViewController.m */,
-				7099FD521259C47585FDF73B1705D383 /* BDFaceBaseViewController.h */,
-				78CE9D259F45EE601160A3AE6CE36674 /* BDFaceBaseViewController.m */,
-				2E830C645BD3BF3BEB4417BE22CBCF99 /* BDFaceDetectionViewController.h */,
-				7CD8EB55EF4AC43260E73953AB9310BB /* BDFaceDetectionViewController.m */,
-				406C882D23B924F44D7C4DA27E84BE91 /* BDFaceLivenessViewController.h */,
-				7A25BC171B483BD9860D567149190EDF /* BDFaceLivenessViewController.m */,
-				D7FFCD52E847D74B7190E4A143A1A4D5 /* BDFaceLivingConfigViewController.h */,
-				5AD70BD8BE1C1FAB39917B976F5FA466 /* BDFaceLivingConfigViewController.m */,
-				C02176876EC872668F6CEF433DD6EDB9 /* BDFaceSuccessViewController.h */,
-				F0341F1480141C849557501D8C043B73 /* BDFaceSuccessViewController.m */,
+				F163694A8DE280F39A5DD2278C5C5963 /* BDFaceAdjustParamsCell.h */,
+				0A1AC7F3F0B2DAEB008B984FECF0D38B /* BDFaceAdjustParamsCell.m */,
+				881B297414AA90678CB5690C9665B308 /* BDFaceAdjustParamsRootCell.h */,
+				9AD63D89A1EE2F7CD74B3205C7867839 /* BDFaceAdjustParamsRootCell.m */,
+				C0F93C96F1097873511462B709FB9143 /* BDFaceSelectConfigCell.h */,
+				6D4A2A4573B4DA0967F280EAD326E139 /* BDFaceSelectConfigCell.m */,
+				AF4A63288080CCBFE37E40CB946BD1F5 /* BDFaceSelectRadio.h */,
+				3FDB9799F82416E0E96AEEA6567D7E3C /* BDFaceSelectRadio.m */,
 			);
-			name = Controller;
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		9EC112649EC8144263540DDB791A40AB /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				AFF599C9F4A4EABF270CD31F94B5FE28 /* BDFaceAdjustParamsController.h */,
-				123B9E60EFFBC129D511121B6E83560C /* BDFaceAdjustParamsController.m */,
-				A6D9FC6EF628FAD30142036352386AF1 /* BDFaceAdjustParamsRootController.h */,
-				568455826A4A309355C254ED9D924E37 /* BDFaceAdjustParamsRootController.m */,
-				036F62A2C1B35976546DD9685B5C71A7 /* BDFaceAlertController.h */,
-				8FFF2766ADEAA5F1A28FCB082AF04043 /* BDFaceAlertController.m */,
-				C671F5212735F22610E22ECAF2BA355C /* BDFaceSelectConfigController.h */,
-				9AC1370C0471CBADD3FBD189F6B9F4E7 /* BDFaceSelectConfigController.m */,
-			);
-			name = Controller;
-			path = Controller;
+			name = View;
+			path = View;
 			sourceTree = "<group>";
 		};
 		A0F5C059C2A405957AC2B4C39CEAC01F /* Targets Support Files */ = {
@@ -510,6 +491,16 @@
 				E5294F8FFF2B8EFAF1626E4364684C34 /* Pods-TBFaceSDK_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		ACEDEA5427FD90219AFB6063F7938DF7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B8D6FEAC04F186E0B9C48E56BC46FF44 /* BDFaceLivingConfigModel.h */,
+				5BD4B7C21E4263E0DFBBF720F9CA1A7B /* BDFaceLivingConfigModel.m */,
+			);
+			name = Model;
+			path = Model;
 			sourceTree = "<group>";
 		};
 		B262D91F046465AF0709B7C3AA6B888C /* Pods-TBFaceSDK_Example */ = {
@@ -529,15 +520,38 @@
 			path = "Target Support Files/Pods-TBFaceSDK_Example";
 			sourceTree = "<group>";
 		};
-		B26AC4A68EA36DE28EE0CB875C68C436 /* Products */ = {
+		B4EEFA4FF8BCBE918EAC89294F4859F6 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				E155A803AE5620F425BDFFA1D81C1F83 /* Pods-TBFaceSDK_Example */,
-				6333F1A9DC1837F19A9BCEE3F100DA46 /* Pods-TBFaceSDK_Tests */,
-				73139F55F947D40C74DD332B1A8063D5 /* TBFaceSDK */,
-				AB706E93EDBECDBA2BD0B3BC7AF869D1 /* TBFaceSDK-TBFaceSDK */,
+				DF28AC2F9C368A8E495E987BCB7548DE /* BDFaceAdjustParams.h */,
+				E052658B53875A014EDB09F74E618826 /* BDFaceAdjustParams.m */,
+				851ACF3FA5A5929F15C1D3E3FE5C8794 /* BDFaceAdjustParamsConstants.h */,
+				0484F4E12C6221B3BBD27FBA7EF60706 /* BDFaceAdjustParamsConstants.m */,
+				02A797244B6B2A446DB3403B9F6071E3 /* BDFaceAdjustParamsFileManager.h */,
+				27DCADE24062A4282A6A123CC8246482 /* BDFaceAdjustParamsFileManager.m */,
+				641BDC1056F265121EB94427CD8FE665 /* BDFaceAdjustParamsItem.h */,
+				DCD8A4EBD2E7A018E2A1BEFCEE0052C6 /* BDFaceAdjustParamsItem.m */,
+				8C935DDC6EB7683580F67B8EB0FB6B4B /* BDFaceAdjustParamsModel.h */,
+				63364DF63893BC5A6A53EEA7436F49A8 /* BDFaceAdjustParamsModel.m */,
+				2C07EB5B47F9FC9ECA21F66A66C57641 /* BDFaceSelectConfigModel.h */,
+				14AED7CD63BF7A54B72FDD4CE3A21439 /* BDFaceSelectConfigModel.m */,
+				5609D8AEAA2ABB86856CA4B697945979 /* BDFaceSelectItem.h */,
+				0D564B33423C1FD01966433164663017 /* BDFaceSelectItem.m */,
 			);
-			name = Products;
+			name = Model;
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B8F6FAC5CD1B47D9DB54051BA56C2DB4 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				F311DD93B58041B0E3E8BC827716129D /* BDFaceDevice.h */,
+				99D8CA5B3892D763998FCAE952788C96 /* BDFaceDevice.m */,
+				508178C314979699F48964891F8AFCDB /* BDFaceImageUtils.h */,
+				A5BA977D5606D4826D7F11CA69A9F21A /* BDFaceImageUtils.m */,
+			);
+			name = Util;
+			path = Util;
 			sourceTree = "<group>";
 		};
 		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
@@ -548,57 +562,53 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C6FEBD9144FEF685476DF41113BDDBBE /* Pod */ = {
+		C2EB34E33EAA1C2190C208D774E7478D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FA783F597B0627AD8D89BFA4050B705B /* LICENSE */,
-				E7A5D88209F514814763E7A4F0B03AD6 /* README.md */,
-				EE7AB3FD1261D2EA31D18D11425B5C53 /* TBFaceSDK.podspec */,
+				E550DFDB6C879A9D9EFA2652BADE6E97 /* IDLFaceSDK.framework */,
 			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		CD400C488DC673E565E2B9F2E3CF313B /* Resource */ = {
-			isa = PBXGroup;
-			children = (
-				3D5106DC2C8D6075C8EA0D01F1563606 /* Assets.xcassets */,
-				94DB4A13C9EC959965BD8BECA98B1B35 /* BDFaceParamsConfig.json */,
-			);
-			name = Resource;
-			path = TBFaceSDK/Resource;
-			sourceTree = "<group>";
-		};
-		CE15A324A1CC142402F7E56F9BD79709 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				4BCEFBDA99F89BF50DB832A4591FF014 /* BDFaceAdjustParams.h */,
-				137E5796854A11279A070E4E8FBC7016 /* BDFaceAdjustParams.m */,
-				EB1906BEF92C714BBD4021D6D9F2BAFE /* BDFaceAdjustParamsConstants.h */,
-				66A95A7E9AB0C775E247F3A72EC71ADB /* BDFaceAdjustParamsConstants.m */,
-				FA65B5C520B905800447815254331D15 /* BDFaceAdjustParamsFileManager.h */,
-				D9411C0AB8D0DCB54A311566E27D3CD4 /* BDFaceAdjustParamsFileManager.m */,
-				9DAF01BE656EA726D60F50680823187A /* BDFaceAdjustParamsItem.h */,
-				8C73B527F539C9EBF5542A7FFB290652 /* BDFaceAdjustParamsItem.m */,
-				EA1BC4A80A7D110FB332E4EF0595886D /* BDFaceAdjustParamsModel.h */,
-				8C731318274E8C7161E63BBCA52AFA36 /* BDFaceAdjustParamsModel.m */,
-				18A892FA681BD938802491CA85DFEAEB /* BDFaceSelectConfigModel.h */,
-				120F5F128FB34E6595E2A1B1639DC3F3 /* BDFaceSelectConfigModel.m */,
-				B0066DC7210A52799BDC6B04C23F6EAD /* BDFaceSelectItem.h */,
-				88DC8D8A049385DFA6D33A3B9DA6F4D4 /* BDFaceSelectItem.m */,
-			);
-			name = Model;
-			path = Model;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				50553E7F3A3459F806E2B380D9677B55 /* Development Pods */,
+				7C97DE068D444EFF089E87412D905D46 /* Development Pods */,
 				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
-				B26AC4A68EA36DE28EE0CB875C68C436 /* Products */,
+				103209FBDADA35D48AC563CBD73DB126 /* Products */,
 				A0F5C059C2A405957AC2B4C39CEAC01F /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D0949EB7DAAE70EE387D93785C3920E5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3C6AB75C73F545806F23473C5C6456AB /* BDFaceAdjustParamsController.h */,
+				1E52130D2EF91D690E94B4B6C031A06F /* BDFaceAdjustParamsController.m */,
+				8B081DC80E0D440F41E9F9F415F58F75 /* BDFaceAdjustParamsRootController.h */,
+				1789360935482671C0F8A4195DF90D3C /* BDFaceAdjustParamsRootController.m */,
+				A67D9F013572D6ACFC6C131412ED2D44 /* BDFaceAlertController.h */,
+				EC722ADBD76575C4BE670A64645A03BE /* BDFaceAlertController.m */,
+				4E6A96AADC2F045F75B9BEA3BB37ACB9 /* BDFaceSelectConfigController.h */,
+				52BD09812586A3A15013AEB056621632 /* BDFaceSelectConfigController.m */,
+			);
+			name = Controller;
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E50BC27D0E6AB4352088DD05E021886B /* BDFaceTools */ = {
+			isa = PBXGroup;
+			children = (
+				88572C5A2D276EC1FD25C75D1D06B9C8 /* BDFaceCalculateTool.h */,
+				BD914535C3498F83D483C210D60D484D /* BDFaceCalculateTool.m */,
+				CA3CB1DD0D0CB2AACA1FF9FB73A0D533 /* BDFaceToastView.h */,
+				25F28FAC5D76C209C17E9192A6889D41 /* BDFaceToastView.m */,
+				F35BCCEB1ACFFD16EF92FE1AFFF52ED3 /* UIColor+BDFaceColorUtils.h */,
+				8E4ABB1D95EC85A2ABEE6E6C83555C19 /* UIColor+BDFaceColorUtils.m */,
+			);
+			name = BDFaceTools;
+			path = BDFaceTools;
 			sourceTree = "<group>";
 		};
 		E5294F8FFF2B8EFAF1626E4364684C34 /* Pods-TBFaceSDK_Tests */ = {
@@ -617,41 +627,39 @@
 			path = "Target Support Files/Pods-TBFaceSDK_Tests";
 			sourceTree = "<group>";
 		};
-		EC22665014EF4600D4554B17EBBD3976 /* Public */ = {
+		E763A21341B21C312FB758920BB31B4B /* TBFaceSDK */ = {
 			isa = PBXGroup;
 			children = (
-				57D418119A044E2B7DE64E2AA1A49A3C /* Common */,
-				F579CA4743D655A92029D3F59DBD4F8B /* Model */,
-				3BB2D32A52CABE49D13BA07551121EA5 /* Util */,
+				2196D7CDBD00966865C4B444196C27EF /* BDFaceFaceSDKUI */,
+				15FD179C871B7DBC96D2B928B5D99DAE /* BDFaceSDK */,
+				C2EB34E33EAA1C2190C208D774E7478D /* Frameworks */,
+				44886708D1855CE25845BA9F479A5FFF /* Help */,
+				05392B44C471C776C461183A9EC501F1 /* Pod */,
+				FBA26808E03F1A9EDFA7332C44BF6FFE /* Resource */,
+				02D16456D17033A1B658CCF507BD6BFB /* Support Files */,
 			);
-			name = Public;
-			path = TBFaceSDK/Classes/BDFaceFaceSDKUI/Public;
+			name = TBFaceSDK;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		EFEEE1DBA7F817F76152468E0FC2BB45 /* View */ = {
+		EA89E2BF8A2D3CC52929EEFFAC67F028 /* BDFaceAdjustParams */ = {
 			isa = PBXGroup;
 			children = (
-				B77B394056A2AAF7846358FE2735FE52 /* BDFaceAdjustParamsCell.h */,
-				F283F0C3B96DF041FB6A4F6BA5133290 /* BDFaceAdjustParamsCell.m */,
-				EF2CB4B8AE96294035651EDF28164BB2 /* BDFaceAdjustParamsRootCell.h */,
-				7DEA45CD4AEC94EA5B1B432A392D8053 /* BDFaceAdjustParamsRootCell.m */,
-				8D61E0AA862019488B83D1AFAFE2105B /* BDFaceSelectConfigCell.h */,
-				53CE81B8461E7146ABA56E2F9798BC97 /* BDFaceSelectConfigCell.m */,
-				0DADB998B312295CB635FBFC5E95F0E5 /* BDFaceSelectRadio.h */,
-				8E50E33855D9B2FA70F27DBDA042C377 /* BDFaceSelectRadio.m */,
+				D0949EB7DAAE70EE387D93785C3920E5 /* Controller */,
+				B4EEFA4FF8BCBE918EAC89294F4859F6 /* Model */,
+				850F645BB2893DC24A17EEA94DBCD00B /* View */,
 			);
-			name = View;
-			path = View;
+			name = BDFaceAdjustParams;
+			path = BDFaceAdjustParams;
 			sourceTree = "<group>";
 		};
-		F579CA4743D655A92029D3F59DBD4F8B /* Model */ = {
+		FBA26808E03F1A9EDFA7332C44BF6FFE /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				2BBD871B637697C9D193E2C490C6859D /* BDFaceLivingConfigModel.h */,
-				9AF97291DF36CAAE8C695CAD4CD58574 /* BDFaceLivingConfigModel.m */,
+				7A13F3969D08581DCA1D2E869D2CE758 /* BDFaceSDKUI.bundle */,
 			);
-			name = Model;
-			path = Model;
+			name = Resource;
+			path = TBFaceSDK/Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -665,49 +673,51 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1F94FB896623A4FCA6602892FB447CF9 /* Headers */ = {
+		493838867AF6008AE731F3CFC6E43C80 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92E9FDD0C51520820721D690B3F4BE6E /* BDFaceAdjustParams.h in Headers */,
-				1258EB9CDFA30B87DC820F3D24942D60 /* BDFaceAdjustParamsCell.h in Headers */,
-				FCFA537F63AC38C42274C0A356E5FE7A /* BDFaceAdjustParamsConstants.h in Headers */,
-				22FBB4F797061A9D5EDA3B24A3164FA9 /* BDFaceAdjustParamsController.h in Headers */,
-				08198E649CE4123C5615D187222A3EDB /* BDFaceAdjustParamsFileManager.h in Headers */,
-				3EEB2A8528544867EF7EAA53FB067B01 /* BDFaceAdjustParamsItem.h in Headers */,
-				4EC293B69938DCC6EA674BAC088F3947 /* BDFaceAdjustParamsModel.h in Headers */,
-				95C571D0632592695A0093313D211707 /* BDFaceAdjustParamsRootCell.h in Headers */,
-				FE5B91DA277F19203CFB814E85A1366B /* BDFaceAdjustParamsRootController.h in Headers */,
-				629DBAC94F42C7458F04B2935F565C5D /* BDFaceAdjustParamsTool.h in Headers */,
-				96296FFFD98EB19B25F35FE89787F7EA /* BDFaceAgreementViewController.h in Headers */,
-				EA0F0A30E72A9833169EB1D157A9AAE4 /* BDFaceAlertController.h in Headers */,
-				5ED1D26D075D981BD79D28EB3D25CD4A /* BDFaceBaseViewController.h in Headers */,
-				F3C03EF722DB0743D4B63C611DCFD328 /* BDFaceCalculateTool.h in Headers */,
-				EB21CFA6E4BD14AEDD99578CB2A56BB9 /* BDFaceCircleView.h in Headers */,
-				EF0E1103B630E041F40C35C0F180446F /* BDFaceCycleProgressView.h in Headers */,
-				1B6FD83C761B1FCC12DFB4A5B9A205B0 /* BDFaceDetectionViewController.h in Headers */,
-				8C05E6BB27D3C03C3058527308452A3B /* BDFaceDevice.h in Headers */,
-				D6FE42B1A39B8FBDEFF41A8F0523E22B /* BDFaceImageShow.h in Headers */,
-				3165410F324D3706BFDA05F746478FD0 /* BDFaceImageUtils.h in Headers */,
-				C20D097B514E2D2E91BFA89B4EAAC44D /* BDFaceLivenessViewController.h in Headers */,
-				1A148289B9B89C75D3FA1D4DC0FD2147 /* BDFaceLivingConfigModel.h in Headers */,
-				A0772FA5920C3EC5A4340E8CCB15A456 /* BDFaceLivingConfigViewController.h in Headers */,
-				E5A1180DF745269A77E1D62F9EF0984E /* BDFaceLog.h in Headers */,
-				1D6D24BC81E3CAA38EE7F1739E656E69 /* BDFaceLogoView.h in Headers */,
-				8FFB2D840C1CEB4FE6E0CEB2262C8BEB /* BDFaceRemindAnimationView.h in Headers */,
-				5A42222AE5681303A68C05EEA04B637F /* BDFaceRemindView.h in Headers */,
-				D2807FEEDEEC216F08E12FC343A0F46B /* BDFaceSelectConfigCell.h in Headers */,
-				318F1AA9926CC74719784B79C570378D /* BDFaceSelectConfigController.h in Headers */,
-				B0063D6BC5706545243E74055421345C /* BDFaceSelectConfigModel.h in Headers */,
-				46805E12A95A036A6130CA3D9264A943 /* BDFaceSelectItem.h in Headers */,
-				74240ABF789ADF2315A856816D56E9E3 /* BDFaceSelectRadio.h in Headers */,
-				788A10C4479636D0DD1A2FF710ABDC19 /* BDFaceSuccessViewController.h in Headers */,
-				2FD21E4EF615A161A85F9B8D6AC21F0A /* BDFaceToastView.h in Headers */,
-				E8C9973BF96EBFDE4CFB0AF6FB243803 /* BDFaceVideoCaptureDevice.h in Headers */,
-				B56B6ED8732175E2B5FC3C7B0FF3F68B /* FaceParameterConfig.h in Headers */,
-				757051638F2DA42C0DF2FECC49ABCBB6 /* TBFaceSDK-umbrella.h in Headers */,
-				43708F98FAD40D1023D8EA427DF59078 /* TBFaceSDKUtil.h in Headers */,
-				EBA34D94C26F4E21EC850BB732F57B15 /* UIColor+BDFaceColorUtils.h in Headers */,
+				EE070693837F715C4464F5A766ADB96A /* BDFaceAdjustParams.h in Headers */,
+				96DA27ADFD6D670D4A6CB95A6E91FB9B /* BDFaceAdjustParamsCell.h in Headers */,
+				48032F089D97493E5333B4E3100647AC /* BDFaceAdjustParamsConstants.h in Headers */,
+				07D98FB710A702210D17C4D110B6A0B5 /* BDFaceAdjustParamsController.h in Headers */,
+				E8D51506B4D196BB39B0A0FBA9FFA235 /* BDFaceAdjustParamsFileManager.h in Headers */,
+				F340E2AA696053A33DFB460F879156CA /* BDFaceAdjustParamsItem.h in Headers */,
+				8D5B96F64628AB3CEAB428A2F878A594 /* BDFaceAdjustParamsModel.h in Headers */,
+				BA104B5E4C6461ACCCB2CC2644367D04 /* BDFaceAdjustParamsRootCell.h in Headers */,
+				FD149EBC2B3F25C7BFCB9F1DA818D0F2 /* BDFaceAdjustParamsRootController.h in Headers */,
+				2405E0436AB2159FF3F69C1EA1D7A3D9 /* BDFaceAdjustParamsTool.h in Headers */,
+				537857D7D53989ABA71BA4ED34B7CDF0 /* BDFaceAgreementViewController.h in Headers */,
+				B37290C772EBF28EA31A3D321C99FACB /* BDFaceAlertController.h in Headers */,
+				D9B040AD85485CBD6F3C363353F2AFF9 /* BDFaceBaseViewController.h in Headers */,
+				237EB2250D6C4DE11EABBB649C4453E0 /* BDFaceCalculateTool.h in Headers */,
+				BBDD58F868518730E613DD8A6494FEEC /* BDFaceCircleView.h in Headers */,
+				879A9C005B7CBFF38F8C8B45234E899D /* BDFaceCycleProgressView.h in Headers */,
+				65BCBCFE9066723DD7FABF479E9AC830 /* BDFaceDetectionViewController.h in Headers */,
+				40F8DCDFA896323A8510B3135AEDD440 /* BDFaceDevice.h in Headers */,
+				839E2EFF05DA1E64F922C08EAD62E049 /* BDFaceImageShow.h in Headers */,
+				C39E60B25DF9DDC062F83A32613B2EE1 /* BDFaceImageUtils.h in Headers */,
+				F273191AB49735381FC2A2832A9B96A0 /* BDFaceLivenessViewController.h in Headers */,
+				E1F43AFD76F32828F2144CAAA27E555C /* BDFaceLivingConfigModel.h in Headers */,
+				23D6DA14AF3BB7C9A8452EEF2F4B0140 /* BDFaceLivingConfigViewController.h in Headers */,
+				49A64294DBEA477E10D9F64038FC5616 /* BDFaceLog.h in Headers */,
+				EB8E1CF086D421B7AEB7CDB0B9918E38 /* BDFaceLogoView.h in Headers */,
+				A95721F81D3B4668417B77E6596D36C4 /* BDFaceRemindAnimationView.h in Headers */,
+				5474D48B45EC919DA5E67B8204034C01 /* BDFaceRemindView.h in Headers */,
+				0A67CD27021D7D17AD0A897AEB6AC4FB /* BDFaceSelectConfigCell.h in Headers */,
+				8F69C8E51A8AC86C329045BB61AB7E21 /* BDFaceSelectConfigController.h in Headers */,
+				83296B6DE73D57D8584F334A26A291EE /* BDFaceSelectConfigModel.h in Headers */,
+				B72FA066BAB585CB817196989692662D /* BDFaceSelectItem.h in Headers */,
+				9D64ED05C188D6948E1CFC1874D26977 /* BDFaceSelectRadio.h in Headers */,
+				54C3C7C7CFA44ED407E4EC6D69ADAD4E /* BDFaceSuccessViewController.h in Headers */,
+				94C9DD56B51FDE40835D5B32C111BECC /* BDFaceToastView.h in Headers */,
+				EEF85303D2318B41E465CFFC16E1F07C /* BDFaceVideoCaptureDevice.h in Headers */,
+				D08D659ACA8F9B6FB4B7BCF327D8124D /* FaceParameterConfig.h in Headers */,
+				CFF3738D6D9EBF2624024FEE521F6398 /* NSBundle+NSBundleAdd.h in Headers */,
+				10E1362F47DA83391233AD596629F7BB /* NSObject+PAITSwizzle.h in Headers */,
+				05AB5134BBAEFBF3CC5C481A62E75D17 /* TBFaceSDK-umbrella.h in Headers */,
+				54FA7EECADBF43BB5AD172F6B5886FE7 /* TBFaceSDKUtil.h in Headers */,
+				7B8798FF62F7300F87509FE73A6AE4E7 /* UIColor+BDFaceColorUtils.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -722,36 +732,18 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		161E0B0D6038B87B5BA218880B562C6C /* TBFaceSDK-TBFaceSDK */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B880F0816691335EC9BB9A11301229BE /* Build configuration list for PBXNativeTarget "TBFaceSDK-TBFaceSDK" */;
-			buildPhases = (
-				8C3C6B52671956C3C48F868280A104C8 /* Sources */,
-				4B13658907C3CAD380745DEC008A37A1 /* Frameworks */,
-				798E966639FD8F75F1A6846DCBA514C3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "TBFaceSDK-TBFaceSDK";
-			productName = TBFaceSDK;
-			productReference = AB706E93EDBECDBA2BD0B3BC7AF869D1 /* TBFaceSDK-TBFaceSDK */;
-			productType = "com.apple.product-type.bundle";
-		};
 		202609325C7AF24C6BCF4607D70DFD35 /* TBFaceSDK */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D5BD8E31BDA7ADDEBDD9BB3B07EA0F1B /* Build configuration list for PBXNativeTarget "TBFaceSDK" */;
+			buildConfigurationList = 66DD961EA85F7287863DD0EC6FA93B72 /* Build configuration list for PBXNativeTarget "TBFaceSDK" */;
 			buildPhases = (
-				1F94FB896623A4FCA6602892FB447CF9 /* Headers */,
-				B5168BF4AA9FC1B39A9822D10A66B3CE /* Sources */,
-				BAFDF081986F4061214D7DDA9C81B6B0 /* Frameworks */,
-				A3105F7702D9FFDFD1CE9819C89E8F58 /* Resources */,
+				493838867AF6008AE731F3CFC6E43C80 /* Headers */,
+				1C391AC90691FCFBC1E5F33DF43089D6 /* Sources */,
+				DE43329A7382AB8B74FE6CF3940A8F09 /* Frameworks */,
+				18DCA391D10E58063243B4B87070ECAB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DE480C26EBF5DCC41E42E80BFC23F1A9 /* PBXTargetDependency */,
 			);
 			name = TBFaceSDK;
 			productName = TBFaceSDK;
@@ -770,7 +762,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				8D24B3D457570EA325974FB34DE85973 /* PBXTargetDependency */,
+				EF88ABB1B6DF46985AD25613D23B0E6D /* PBXTargetDependency */,
 			);
 			name = "Pods-TBFaceSDK_Example";
 			productName = Pods_TBFaceSDK_Example;
@@ -789,7 +781,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				FE02E6634AAE4422E3A2E3A6EBCD4E98 /* PBXTargetDependency */,
+				BA23108E1E2D4C9437733A8828F4A0C5 /* PBXTargetDependency */,
 			);
 			name = "Pods-TBFaceSDK_Tests";
 			productName = Pods_TBFaceSDK_Tests;
@@ -814,27 +806,30 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = B26AC4A68EA36DE28EE0CB875C68C436 /* Products */;
+			productRefGroup = 103209FBDADA35D48AC563CBD73DB126 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				2554E40E9BA4EBDFCEC1877568B1CD7E /* Pods-TBFaceSDK_Example */,
 				E6B6AA3A79E1AB6A854D6BAED5F7AD89 /* Pods-TBFaceSDK_Tests */,
 				202609325C7AF24C6BCF4607D70DFD35 /* TBFaceSDK */,
-				161E0B0D6038B87B5BA218880B562C6C /* TBFaceSDK-TBFaceSDK */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		61A235BD3C6FF521339711047EF98FAC /* Resources */ = {
+		18DCA391D10E58063243B4B87070ECAB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF6FBC2EBD696E681659C9DC9FD131FE /* BDFaceSDKUI.bundle in Resources */,
+				F52A3159F0CD6911D840AFE1BA3C56D0 /* com.baidu.idl.face.faceSDK.bundle in Resources */,
+				D3EF2E7CBE94A302077E8F082B48A6F3 /* com.baidu.idl.face.live.action.image.bundle in Resources */,
+				175BE2F8DAD49B9490AD2A58C8A554B6 /* com.baidu.idl.face.model.faceSDK.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		798E966639FD8F75F1A6846DCBA514C3 /* Resources */ = {
+		61A235BD3C6FF521339711047EF98FAC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -848,22 +843,56 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A3105F7702D9FFDFD1CE9819C89E8F58 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FFA547B65D9019D10718BE60B1082091 /* Assets.xcassets in Resources */,
-				FF32B74B99705A2D57E43E93A1D89B7E /* BDFaceParamsConfig.json in Resources */,
-				78281391CE9085CD858DE85D4FB832D5 /* com.baidu.idl.face.faceSDK.bundle in Resources */,
-				82E19FE4F33610018080C29DA5C126D9 /* com.baidu.idl.face.live.action.image.bundle in Resources */,
-				CC282BBC634ED47F5BD1BCC84473095C /* com.baidu.idl.face.model.faceSDK.bundle in Resources */,
-				BC3FD355AB25417AB5815386A1E73B94 /* TBFaceSDK-TBFaceSDK in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1C391AC90691FCFBC1E5F33DF43089D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B0512DE727F955CE81344828EF1D581 /* BDFaceAdjustParams.m in Sources */,
+				503707D7AB626BC13BD93E61BA470B3B /* BDFaceAdjustParamsCell.m in Sources */,
+				B38ADE12F9E65629D0CD05D656610E9B /* BDFaceAdjustParamsConstants.m in Sources */,
+				5EF19988C366C73BE2A44674514FBF54 /* BDFaceAdjustParamsController.m in Sources */,
+				5ED62DED2E449637E1B187EE1E9F5B1E /* BDFaceAdjustParamsFileManager.m in Sources */,
+				1FBFDE5341B778D44CB1C9DDF697CC40 /* BDFaceAdjustParamsItem.m in Sources */,
+				E7651A0B5260CDC275ADBC09994798C6 /* BDFaceAdjustParamsModel.m in Sources */,
+				86FDE1ABC08373AE402C6BB236C6696E /* BDFaceAdjustParamsRootCell.m in Sources */,
+				4B16E9BE6011CB64DE627972F37C3F3B /* BDFaceAdjustParamsRootController.m in Sources */,
+				D46AD45D087338CF709A5390D9EEE5B9 /* BDFaceAdjustParamsTool.m in Sources */,
+				6F9124BC0FD76FCACD3B0AF06875BD59 /* BDFaceAgreementViewController.m in Sources */,
+				54172860B7D77BB6FCB23F8C7BA573B6 /* BDFaceAlertController.m in Sources */,
+				8D77CC69C0A9F117B74E0D3E6D4102E0 /* BDFaceBaseViewController.m in Sources */,
+				320E617EE4F6D7C6165FBFEBC73EFF6D /* BDFaceCalculateTool.m in Sources */,
+				525C70609C46B66CC054064E525B15EC /* BDFaceCircleView.m in Sources */,
+				8767DDBE21F077B8FCC7A241ABAC9CAF /* BDFaceCycleProgressView.m in Sources */,
+				EBA3AC3C88A15DE44709654C19F1A1A4 /* BDFaceDetectionViewController.m in Sources */,
+				6B89DBC8A40E1E3CFE863EBDC96B410A /* BDFaceDevice.m in Sources */,
+				251B2DC4A1B702A3989BB960015236C9 /* BDFaceImageShow.m in Sources */,
+				3C8576B5907251C30CF4AA469000F961 /* BDFaceImageUtils.m in Sources */,
+				AB91C4E10D490A97C0E4B9230BDA1D77 /* BDFaceLivenessViewController.m in Sources */,
+				087F0E624A5AA997DC16A7DC6CF92D26 /* BDFaceLivingConfigModel.m in Sources */,
+				14688ED107C7423505D9D339C61BF87B /* BDFaceLivingConfigViewController.m in Sources */,
+				07FBC8A831ADB65258EE7AAD24A6BD29 /* BDFaceLog.m in Sources */,
+				89F8752FBF727AB0AED2C7DF54DC6F37 /* BDFaceLogoView.m in Sources */,
+				28CCC452182C6B6275C9118B4D86A836 /* BDFaceRemindAnimationView.m in Sources */,
+				D322153DFE5B854F107287BE76B67465 /* BDFaceRemindView.m in Sources */,
+				4DB6E9103F0EE30F96E92CEEBC17F4A9 /* BDFaceSelectConfigCell.m in Sources */,
+				5EE2153EE8C6841F317D24E0B0882CE9 /* BDFaceSelectConfigController.m in Sources */,
+				64D05C2A1A811C74153FDC7FD8F1C8D9 /* BDFaceSelectConfigModel.m in Sources */,
+				CB05227F46C549496D1ED8BCA09A318B /* BDFaceSelectItem.m in Sources */,
+				24EFD56FA1ED7433180FACCB6752D8FA /* BDFaceSelectRadio.m in Sources */,
+				6E00A2A86A0E617DFF4DFC2EB4630C4C /* BDFaceSuccessViewController.m in Sources */,
+				9A837285BFE7D75DB5C0089EE8DFB905 /* BDFaceToastView.m in Sources */,
+				948B4BB0E2BB5F931830DD1A8CE64615 /* BDFaceVideoCaptureDevice.m in Sources */,
+				71401E8DFB2350A97B3E4BB53C182AC0 /* NSBundle+NSBundleAdd.m in Sources */,
+				D791D21B84C790C1BB978400EB1378F2 /* NSObject+PAITSwizzle.m in Sources */,
+				AF83A077E3380CD70460E0219F443799 /* TBFaceSDK-dummy.m in Sources */,
+				62623AA77F06E1F47FF68FB69EBCD1A3 /* TBFaceSDKUtil.m in Sources */,
+				5A547B2E5EDE9F19BB41EF32689F26A9 /* UIColor+BDFaceColorUtils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2CA5FAD5B4B3B69299550908D8978E89 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -880,358 +909,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8C3C6B52671956C3C48F868280A104C8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B5168BF4AA9FC1B39A9822D10A66B3CE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BAA59B9FF541B8E779CDD2B4637D0DBB /* BDFaceAdjustParams.m in Sources */,
-				D66497E91AA3C0B5A9607D7AB74182D6 /* BDFaceAdjustParamsCell.m in Sources */,
-				E28E60B472AE9B9651804C8A47D6ED4A /* BDFaceAdjustParamsConstants.m in Sources */,
-				299DB681DC7790C8726CB438418DFD76 /* BDFaceAdjustParamsController.m in Sources */,
-				5DA240F8623B6297D872B6ECDD442BB9 /* BDFaceAdjustParamsFileManager.m in Sources */,
-				CDF143852C994F2EB8C0AC5B1163EDA8 /* BDFaceAdjustParamsItem.m in Sources */,
-				C0E08DC3C9958E148242D35D6AE0BBFA /* BDFaceAdjustParamsModel.m in Sources */,
-				9382487C7C37B94A444242F6F59330D5 /* BDFaceAdjustParamsRootCell.m in Sources */,
-				5D4C53481DB19C170067DD25FAA35BC6 /* BDFaceAdjustParamsRootController.m in Sources */,
-				DF36CF478349526ACA9D070D47C29840 /* BDFaceAdjustParamsTool.m in Sources */,
-				AD5AD60A3173FD325B70DC071339AD4B /* BDFaceAgreementViewController.m in Sources */,
-				EFB364D9B8DA0AACE47A71EACB25C655 /* BDFaceAlertController.m in Sources */,
-				F3229D2A1665D5256A86625B128A1481 /* BDFaceBaseViewController.m in Sources */,
-				711430857A595233C47E9974D5E38FEA /* BDFaceCalculateTool.m in Sources */,
-				0ADF6EAD139B72B8E7A6A67624C39442 /* BDFaceCircleView.m in Sources */,
-				9B103901AF2BE5A666E406CF5D72E8A7 /* BDFaceCycleProgressView.m in Sources */,
-				440E6CEE2A7ACEA7B65D2B825D12BC5F /* BDFaceDetectionViewController.m in Sources */,
-				0E76957ACDC84ABC44EC5298EF99A792 /* BDFaceDevice.m in Sources */,
-				16177976814A46E3E10A9B4642FE5921 /* BDFaceImageShow.m in Sources */,
-				CB35C8C4EBE8E5119E8BA118609D31A8 /* BDFaceImageUtils.m in Sources */,
-				C6D7C825B6B963E59B3A9303F13085D2 /* BDFaceLivenessViewController.m in Sources */,
-				EE8C74577FB8592D7F1E6F70E852F84A /* BDFaceLivingConfigModel.m in Sources */,
-				F23CAD737B57425CC1D4332E046F24D2 /* BDFaceLivingConfigViewController.m in Sources */,
-				495BFD570929F764792D7BDDDAD5BAA5 /* BDFaceLog.m in Sources */,
-				1FCAD79BD5D7B182EB2731865D1AE5D1 /* BDFaceLogoView.m in Sources */,
-				F606657158E0B2421D0900B047ED088A /* BDFaceRemindAnimationView.m in Sources */,
-				80B0584ABB4EB8F07A2940D9C7FDA9A9 /* BDFaceRemindView.m in Sources */,
-				3EAECDC7B789D348226FCD3C33DCF96D /* BDFaceSelectConfigCell.m in Sources */,
-				D10D273D26C8DAF9532760BFE038CF66 /* BDFaceSelectConfigController.m in Sources */,
-				487368832A2DDBF654CA614EE586E703 /* BDFaceSelectConfigModel.m in Sources */,
-				4602EC73326569BF2BB1AF5937FBE8CD /* BDFaceSelectItem.m in Sources */,
-				BE3B62182E4D479E3662A5105E3C1D33 /* BDFaceSelectRadio.m in Sources */,
-				85338293162030E3EE30F5211946881D /* BDFaceSuccessViewController.m in Sources */,
-				619329F27C1957E01935CF8141610F4B /* BDFaceToastView.m in Sources */,
-				7531427F9503C0174DCED6951FCE332F /* BDFaceVideoCaptureDevice.m in Sources */,
-				FDD90A938838AD86BDE88C409D405C19 /* TBFaceSDK-dummy.m in Sources */,
-				7DD04DEEFF31E783A8C2646CFB87A931 /* TBFaceSDKUtil.m in Sources */,
-				B34483B83BBA780C5ACA7A6F905472CD /* UIColor+BDFaceColorUtils.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8D24B3D457570EA325974FB34DE85973 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = TBFaceSDK;
-			target = 202609325C7AF24C6BCF4607D70DFD35 /* TBFaceSDK */;
-			targetProxy = 40F8DEB0DC1B654CC04264D701FE213D /* PBXContainerItemProxy */;
-		};
-		DE480C26EBF5DCC41E42E80BFC23F1A9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "TBFaceSDK-TBFaceSDK";
-			target = 161E0B0D6038B87B5BA218880B562C6C /* TBFaceSDK-TBFaceSDK */;
-			targetProxy = 90A1F144A91A0CCAEBE816D2153E80E9 /* PBXContainerItemProxy */;
-		};
-		FE02E6634AAE4422E3A2E3A6EBCD4E98 /* PBXTargetDependency */ = {
+		BA23108E1E2D4C9437733A8828F4A0C5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-TBFaceSDK_Example";
 			target = 2554E40E9BA4EBDFCEC1877568B1CD7E /* Pods-TBFaceSDK_Example */;
-			targetProxy = 1F9883694C41C0868BD2074131C4F1BF /* PBXContainerItemProxy */;
+			targetProxy = F04116CF4B396A04CE8A5AD5E1C6F8E2 /* PBXContainerItemProxy */;
+		};
+		EF88ABB1B6DF46985AD25613D23B0E6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TBFaceSDK;
+			target = 202609325C7AF24C6BCF4607D70DFD35 /* TBFaceSDK */;
+			targetProxy = 4BA7693E7FC0BCC6195261907BE7381D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0F66D1AE1C03C8025863E8CD7679C596 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9FDB68C763B4E0D068DB643B059AB29F /* Pods-TBFaceSDK_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TBFaceSDK_Tests/Pods-TBFaceSDK_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TBFaceSDK_Tests/Pods-TBFaceSDK_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		25143419115B33633A78C39857F7DB66 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0B2A71070FC4DA06258BF23D94DE4D97 /* TBFaceSDK.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TBFaceSDK/TBFaceSDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TBFaceSDK/TBFaceSDK-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TBFaceSDK/TBFaceSDK.modulemap";
-				PRODUCT_MODULE_NAME = TBFaceSDK;
-				PRODUCT_NAME = TBFaceSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		4AC6342A466F76445BD828BCD2CF105C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D1D1970AC6EDC144769A117C7BBF4961 /* TBFaceSDK.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TBFaceSDK/TBFaceSDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TBFaceSDK/TBFaceSDK-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TBFaceSDK/TBFaceSDK.modulemap";
-				PRODUCT_MODULE_NAME = TBFaceSDK;
-				PRODUCT_NAME = TBFaceSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		4F54D7BCA6DB275BB188D86D455A0F4E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C5DF365D2DF64FA4A263F7D797FA9E19 /* Pods-TBFaceSDK_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TBFaceSDK_Tests/Pods-TBFaceSDK_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TBFaceSDK_Tests/Pods-TBFaceSDK_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		786F2BB92623643A2FD34A8B43853DAD /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E77B0B27992F9FF5407DD43459A2CCA9 /* Pods-TBFaceSDK_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TBFaceSDK_Example/Pods-TBFaceSDK_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TBFaceSDK_Example/Pods-TBFaceSDK_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		A128E08CE6C6AE0EC78090332F40C20F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D1D1970AC6EDC144769A117C7BBF4961 /* TBFaceSDK.release.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TBFaceSDK";
-				IBSC_MODULE = TBFaceSDK;
-				INFOPLIST_FILE = "Target Support Files/TBFaceSDK/ResourceBundle-TBFaceSDK-TBFaceSDK-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				PRODUCT_NAME = TBFaceSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		A5D197809F6610DB601625200C6C279B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EA8CE03F9323B16E686008ACF10A9C26 /* Pods-TBFaceSDK_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TBFaceSDK_Example/Pods-TBFaceSDK_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TBFaceSDK_Example/Pods-TBFaceSDK_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1284,7 +980,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1297,19 +993,258 @@
 			};
 			name = Debug;
 		};
-		E839519615D0F880AABA78E49AA88A99 /* Debug */ = {
+		4C18BCFC401F5C10394FFBECF3C0910E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0B2A71070FC4DA06258BF23D94DE4D97 /* TBFaceSDK.debug.xcconfig */;
+			baseConfigurationReference = 9B666ED439AF49BB9719CAD3DBFC921C /* TBFaceSDK.debug.xcconfig */;
 			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TBFaceSDK";
-				IBSC_MODULE = TBFaceSDK;
-				INFOPLIST_FILE = "Target Support Files/TBFaceSDK/ResourceBundle-TBFaceSDK-TBFaceSDK-Info.plist";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TBFaceSDK/TBFaceSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TBFaceSDK/TBFaceSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TBFaceSDK/TBFaceSDK.modulemap";
+				PRODUCT_MODULE_NAME = TBFaceSDK;
 				PRODUCT_NAME = TBFaceSDK;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8D81B28279539AA315CD4C016680BB14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FDB68C763B4E0D068DB643B059AB29F /* Pods-TBFaceSDK_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TBFaceSDK_Tests/Pods-TBFaceSDK_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TBFaceSDK_Tests/Pods-TBFaceSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C227F957C650D689221269A83DA1E699 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E77B0B27992F9FF5407DD43459A2CCA9 /* Pods-TBFaceSDK_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TBFaceSDK_Example/Pods-TBFaceSDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TBFaceSDK_Example/Pods-TBFaceSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D268F1786FFE3D0B6DCE3FB95FB5537F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5DF365D2DF64FA4A263F7D797FA9E19 /* Pods-TBFaceSDK_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TBFaceSDK_Tests/Pods-TBFaceSDK_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TBFaceSDK_Tests/Pods-TBFaceSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DA3F3ECC67B91541D21D997B4136A959 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D765DF256D4C64F61F604EFA8713E2D8 /* TBFaceSDK.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TBFaceSDK/TBFaceSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TBFaceSDK/TBFaceSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TBFaceSDK/TBFaceSDK.modulemap";
+				PRODUCT_MODULE_NAME = TBFaceSDK;
+				PRODUCT_NAME = TBFaceSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E92E03292A20BE36744A6ECB58D3D7DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA8CE03F9323B16E686008ACF10A9C26 /* Pods-TBFaceSDK_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TBFaceSDK_Example/Pods-TBFaceSDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TBFaceSDK_Example/Pods-TBFaceSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -1319,8 +1254,8 @@
 		369B2D8C152D7853C1277C2D418326E7 /* Build configuration list for PBXNativeTarget "Pods-TBFaceSDK_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4F54D7BCA6DB275BB188D86D455A0F4E /* Debug */,
-				0F66D1AE1C03C8025863E8CD7679C596 /* Release */,
+				D268F1786FFE3D0B6DCE3FB95FB5537F /* Debug */,
+				8D81B28279539AA315CD4C016680BB14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1328,26 +1263,17 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
-				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B880F0816691335EC9BB9A11301229BE /* Build configuration list for PBXNativeTarget "TBFaceSDK-TBFaceSDK" */ = {
+		66DD961EA85F7287863DD0EC6FA93B72 /* Build configuration list for PBXNativeTarget "TBFaceSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E839519615D0F880AABA78E49AA88A99 /* Debug */,
-				A128E08CE6C6AE0EC78090332F40C20F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D5BD8E31BDA7ADDEBDD9BB3B07EA0F1B /* Build configuration list for PBXNativeTarget "TBFaceSDK" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				25143419115B33633A78C39857F7DB66 /* Debug */,
-				4AC6342A466F76445BD828BCD2CF105C /* Release */,
+				4C18BCFC401F5C10394FFBECF3C0910E /* Debug */,
+				DA3F3ECC67B91541D21D997B4136A959 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1355,8 +1281,8 @@
 		DD62CFC00AA4E894DF9A750D50D82D42 /* Build configuration list for PBXNativeTarget "Pods-TBFaceSDK_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A5D197809F6610DB601625200C6C279B /* Debug */,
-				786F2BB92623643A2FD34A8B43853DAD /* Release */,
+				E92E03292A20BE36744A6ECB58D3D7DA /* Debug */,
+				C227F957C650D689221269A83DA1E699 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -7,6 +7,7 @@
 //
 
 #import "BDFaceSelectRadio.h"
+#import "TBFaceSDKUtil.h"
 
 static NSMutableArray *radioGroup;
 static NSString *const BDFaceSelectRadioSelectedImage = @"set_config_selected";
@@ -68,9 +69,9 @@ static NSString *const BDFaceSelectRadioUnselectedImage = @"set_config_unselecte
 - (void)setRadioState:(BOOL)radioState {
     _radioState = radioState;
     if (radioState) {
-        [self setImage:[UIImage imageNamed:BDFaceSelectRadioSelectedImage] forState:UIControlStateNormal];
+        [self setImage:[TBFaceSDKUtil imageNamed:BDFaceSelectRadioSelectedImage] forState:UIControlStateNormal];
     } else {
-        [self setImage:[UIImage imageNamed:BDFaceSelectRadioUnselectedImage] forState:UIControlStateNormal];
+        [self setImage:[TBFaceSDKUtil imageNamed:BDFaceSelectRadioUnselectedImage] forState:UIControlStateNormal];
     }
 }
 
